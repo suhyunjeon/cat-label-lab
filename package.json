@@ -1,0 +1,13 @@
+{
+  "name": "cat-wet-food-nutrition",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5175 --bind 127.0.0.1",
+    "crawl": "node scripts/crawl-catpre.cjs",
+    "crawl:petfriends": "node scripts/crawl-petfriends.cjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
