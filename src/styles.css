@@ -665,6 +665,20 @@ td .badge {
   width: max-content;
 }
 
+.nutrientCell {
+  display: grid;
+  gap: 4px;
+  align-items: start;
+}
+
+.nutrientCell small {
+  color: var(--muted);
+  font-size: 11.5px;
+  font-weight: 760;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
 .productCell {
   display: grid;
   grid-template-columns: 54px minmax(0, 1fr);

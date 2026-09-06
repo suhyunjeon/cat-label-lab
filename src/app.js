@@ -41,6 +41,18 @@ const dryMatter = (food, key) => {
   return (food[key] / (100 - food.moisture)) * 100;
 };
 
+const nutrientCell = (food, key, digits = 1, toneClass = "") => {
+  const badgeClass = toneClass ? `badge ${toneClass}` : "badge";
+  const dm = dryMatter(food, key);
+  const dmText = Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가";
+  return `
+    <div class="nutrientCell">
+      <span class="${badgeClass}">${fmt(food[key], digits)}%</span>
+      <small>${dmText}</small>
+    </div>
+  `;
+};
+
 const scoreFood = (food) => {
   const proteinDm = dryMatter(food, "protein") ?? food.protein * 4;
   const fatDm = dryMatter(food, "fat") ?? food.fat * 4;
@@ -202,9 +214,9 @@ app.innerHTML = `
                 <h3>${food.brand}</h3>
                 <p>${food.product}</p>
                 <div class="pillRow">
-                  <span class="${phosTone(food.phosphorus)}">인 ${fmt(food.phosphorus)}%</span>
-                  <span>단백 ${fmt(food.protein, 1)}%</span>
-                  <span>지방 ${fmt(food.fat, 1)}%</span>
+                  <span class="${phosTone(food.phosphorus)}">인 ${fmt(food.phosphorus)}% · ${fmt(dryMatter(food, "phosphorus"))}% DM</span>
+                  <span>단백 ${fmt(food.protein, 1)}% · ${fmt(dryMatter(food, "protein"), 1)}% DM</span>
+                  <span>지방 ${fmt(food.fat, 1)}% · ${fmt(dryMatter(food, "fat"), 1)}% DM</span>
                   <span>${food.mealType}</span>
                   ${renalBadge(food)}
                   <span>${food.score}점</span>
@@ -337,7 +349,7 @@ app.innerHTML = `
 const renderRows = () => {
   const currentRows = rows();
   document.querySelector("#rowCount").textContent = `${currentRows.length}개 제품 표시 중`;
-  document.querySelector("#metricHelp").textContent = `${metrics[state.metric].label}: ${metrics[state.metric].help}`;
+  document.querySelector("#metricHelp").textContent = `${metrics[state.metric].label}: ${metrics[state.metric].help} 표시는 라벨 기준값과 DM(건물 기준) 환산값을 함께 보여줍니다.`;
   document.querySelector("#direction").textContent = state.direction === "asc" ? "↓" : "↑";
   document.querySelector("#query").value = state.query;
   document.querySelector("#tableQuery").value = state.query;
@@ -363,9 +375,9 @@ const renderRows = () => {
             ${renalBadge(food)}
           </td>
           <td>${food.origin}</td>
-          <td><span class="badge ${phosTone(food.phosphorus)}">${fmt(food.phosphorus)}%</span></td>
-          <td>${fmt(food.protein, 1)}%</td>
-          <td>${fmt(food.fat, 1)}%</td>
+          <td>${nutrientCell(food, "phosphorus", 2, phosTone(food.phosphorus))}</td>
+          <td>${nutrientCell(food, "protein", 1)}</td>
+          <td>${nutrientCell(food, "fat", 1)}</td>
           <td>${fmt(food.moisture, 1)}%</td>
           <td>${food.score}</td>
           <td><a href="${food.sourceUrl}" target="_blank" rel="noreferrer" aria-label="${foodId(food)} 출처 열기">${icon.external}</a></td>
@@ -399,8 +411,8 @@ const renderChecker = () => {
             <p>${food.product}</p>
             <div class="miniFacts">
               <span>${food.classification.detail}</span>
-              <span>인 ${fmt(food.phosphorus)}%</span>
-              <span>단백 ${fmt(food.protein, 1)}%</span>
+              <span>인 ${fmt(food.phosphorus)}% · ${fmt(dryMatter(food, "phosphorus"))}% DM</span>
+              <span>단백 ${fmt(food.protein, 1)}% · ${fmt(dryMatter(food, "protein"), 1)}% DM</span>
             </div>
           </div>
         </article>
