@@ -25,6 +25,7 @@ const state = {
   direction: "asc",
   query: "",
   checkerQuery: "",
+  selectedFoodKey: "",
   mealType: "all",
   typeFilter: "all",
   originFilter: "all",
@@ -126,6 +127,10 @@ const checkerMatches = () => {
 
 const foodId = (food) => `${food.brand}-${food.line}-${food.product}`;
 
+const foodKey = (food) => encodeURIComponent(food.sourceUrl || foodId(food));
+
+const foodByKey = (key) => dataset.foods.find((food) => foodKey(food) === key);
+
 const formatLabel = (format) => (format === "pouch" ? "파우치" : format === "can" ? "캔" : "기타");
 
 const typeFilterValue = (food) => {
@@ -149,6 +154,81 @@ const thumbnailMarkup = (food) =>
     : `<span class="foodThumb empty" aria-hidden="true"></span>`;
 
 const renalBadge = (food) => (isRenalCandidate(food) ? `<span class="renalBadge">신장 관리 후보</span>` : "");
+
+const nutrientDetail = (food, key, label, digits = 1, toneClass = "") => {
+  const dm = dryMatter(food, key);
+  return `
+    <div class="detailMetric ${toneClass}">
+      <span>${label}</span>
+      <strong>${fmt(food[key], digits)}%</strong>
+      <small>${Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가"}</small>
+    </div>
+  `;
+};
+
+const insightList = (food) => {
+  const proteinDm = dryMatter(food, "protein");
+  const fatDm = dryMatter(food, "fat");
+  const phosDm = dryMatter(food, "phosphorus");
+  return [
+    Number.isFinite(phosDm) && phosDm <= 1 ? `건물 기준 인 ${fmt(phosDm)}%로 낮은 편입니다.` : `건물 기준 인 ${fmt(phosDm)}%입니다.`,
+    Number.isFinite(proteinDm) && proteinDm >= 45 ? `건물 기준 단백질 ${fmt(proteinDm, 1)}%로 단백 비중이 높은 제품입니다.` : `건물 기준 단백질 ${fmt(proteinDm, 1)}%입니다.`,
+    Number.isFinite(fatDm) ? `건물 기준 지방 ${fmt(fatDm, 1)}%로 함께 비교해볼 수 있습니다.` : "지방 DM 값은 수분 정보가 있어야 계산됩니다.",
+    classifyFood(food).detail
+  ];
+};
+
+const detailPanelMarkup = (food) => {
+  if (!food) {
+    return `
+      <div class="detailEmpty">
+        ${icon.lab}
+        <p>제품을 누르면 라벨 기준값과 DM(건물 기준) 환산값을 자세히 볼 수 있습니다.</p>
+      </div>
+    `;
+  }
+  const classification = classifyFood(food);
+  const score = scoreFood(food);
+  return `
+    <div class="detailHeader">
+      ${thumbnailMarkup(food)}
+      <div>
+        <span class="typeBadge ${classification.tone}">${classification.label}</span>
+        <h2>${food.brand}</h2>
+        <p>${food.line} · ${food.product}</p>
+      </div>
+    </div>
+    <div class="detailActions">
+      ${renalBadge(food)}
+      <span>${formatLabel(food.format)}</span>
+      <span>${food.origin || "원산지 미공개"}</span>
+      <span>${score}점</span>
+    </div>
+    <div class="detailMetrics">
+      ${nutrientDetail(food, "phosphorus", "인", 2, phosTone(food.phosphorus))}
+      ${nutrientDetail(food, "protein", "조단백", 1)}
+      ${nutrientDetail(food, "fat", "조지방", 1)}
+      <div class="detailMetric">
+        <span>수분</span>
+        <strong>${fmt(food.moisture, 1)}%</strong>
+        <small>라벨 기준</small>
+      </div>
+    </div>
+    <dl class="detailSpecs">
+      <div><dt>조섬유</dt><dd>${fmt(food.fiber, 1)}%</dd></div>
+      <div><dt>조회분</dt><dd>${fmt(food.ash, 1)}%</dd></div>
+      <div><dt>칼슘</dt><dd>${fmt(food.calcium, 3)}%</dd></div>
+      <div><dt>제조사</dt><dd>${food.maker || "미공개"}</dd></div>
+    </dl>
+    <ul class="detailInsights">
+      ${insightList(food)
+        .map((item) => `<li>${item}</li>`)
+        .join("")}
+    </ul>
+    <a class="sourceButton" href="${food.sourceUrl}" target="_blank" rel="noreferrer">${icon.external} 상품 페이지 보기</a>
+    <p class="detailNotice">국내 상품 페이지의 보장성분 표기값 기준입니다. 질환 관리와 처방식 판단은 수의사 상담을 우선하세요.</p>
+  `;
+};
 
 const rows = () =>
   dataset.foods
@@ -206,7 +286,7 @@ app.innerHTML = `
         ${recommended
           .map(
             (food, index) => `
-              <article class="pick">
+              <article class="pick" data-food-key="${foodKey(food)}" role="button" tabindex="0" aria-label="${foodId(food)} 상세 보기">
                 <div class="pickTop">
                   ${thumbnailMarkup(food)}
                   <div class="rank">${index + 1}</div>
@@ -339,6 +419,14 @@ app.innerHTML = `
       </section>
     </section>
 
+    <div class="detailOverlay" id="detailOverlay" aria-hidden="true">
+      <button class="detailScrim" id="detailScrim" type="button" aria-label="상세 닫기"></button>
+      <aside class="detailPanel" aria-label="제품 상세 정보" aria-live="polite">
+        <button class="detailClose" id="detailClose" type="button" aria-label="상세 닫기">x</button>
+        <div id="detailContent">${detailPanelMarkup(null)}</div>
+      </aside>
+    </div>
+
     <footer class="siteFooter">
       <p>© 2026 캣라벨랩. All rights reserved.</p>
       <p>본 서비스는 고양이 습식 제품의 보장성분 비교를 돕기 위한 무료 참고 도구이며, 수의사의 진료·처방을 대체하지 않습니다.</p>
@@ -359,7 +447,7 @@ const renderRows = () => {
   document.querySelector("#foodRows").innerHTML = currentRows
     .map(
       (food) => `
-        <tr>
+        <tr data-food-key="${foodKey(food)}" tabindex="0" aria-label="${foodId(food)} 상세 보기">
           <td>
             <div class="productCell">
               ${thumbnailMarkup(food)}
@@ -401,7 +489,7 @@ const renderChecker = () => {
   resultBox.innerHTML = matches
     .map(
       (food) => `
-        <article class="checkerItem">
+        <article class="checkerItem" data-food-key="${foodKey(food)}" role="button" tabindex="0" aria-label="${foodId(food)} 상세 보기">
           ${thumbnailMarkup(food)}
           <div>
             <div class="checkerItemTop">
@@ -419,6 +507,21 @@ const renderChecker = () => {
       `
     )
     .join("");
+};
+
+const openDetail = (key) => {
+  const food = foodByKey(key);
+  if (!food) return;
+  state.selectedFoodKey = key;
+  document.querySelector("#detailContent").innerHTML = detailPanelMarkup(food);
+  document.querySelector("#detailOverlay").classList.add("open");
+  document.querySelector("#detailOverlay").setAttribute("aria-hidden", "false");
+};
+
+const closeDetail = () => {
+  state.selectedFoodKey = "";
+  document.querySelector("#detailOverlay").classList.remove("open");
+  document.querySelector("#detailOverlay").setAttribute("aria-hidden", "true");
 };
 
 document.querySelector("#query").addEventListener("input", (event) => {
@@ -490,6 +593,28 @@ document.querySelector("#sorters").addEventListener("click", (event) => {
   }
   renderRows();
 });
+
+app.addEventListener("click", (event) => {
+  if (event.target.closest("a, button, input, select")) return;
+  const item = event.target.closest("[data-food-key]");
+  if (!item) return;
+  openDetail(item.dataset.foodKey);
+});
+
+app.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeDetail();
+    return;
+  }
+  if (event.key !== "Enter" && event.key !== " ") return;
+  const item = event.target.closest("[data-food-key]");
+  if (!item) return;
+  event.preventDefault();
+  openDetail(item.dataset.foodKey);
+});
+
+document.querySelector("#detailClose").addEventListener("click", closeDetail);
+document.querySelector("#detailScrim").addEventListener("click", closeDetail);
 
 renderRows();
 renderChecker();
