@@ -152,6 +152,14 @@ h1 {
   padding: 22px 0 14px;
 }
 
+.recommendCriteria {
+  max-width: 780px;
+  margin: -6px 0 16px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .sectionTitle {
   margin-bottom: 16px;
 }
@@ -968,26 +976,44 @@ td a svg {
   word-break: keep-all;
 }
 
-.sourceButton {
-  display: inline-flex;
-  justify-content: center;
-  gap: 8px;
-  align-items: center;
-  width: 100%;
-  min-height: 44px;
-  margin-top: 18px;
-  border-radius: 8px;
-  background: var(--navy);
-  color: white;
-  font-weight: 850;
-  text-decoration: none;
-}
-
 .detailNotice {
   margin-top: 12px;
   color: var(--muted);
   font-size: 12px;
   line-height: 1.45;
+}
+
+.topButton {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 20;
+  min-width: 76px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid rgba(51, 65, 95, 0.18);
+  border-radius: 999px;
+  background: var(--navy);
+  box-shadow: 0 12px 26px rgba(32, 38, 54, 0.18);
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 900;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.topButton.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.topButton:focus-visible {
+  outline: 3px solid var(--blue-soft);
+  outline-offset: 3px;
 }
 
 .siteFooter {
@@ -1088,6 +1114,14 @@ td a svg {
 
   .recommend .sectionTitle h2 {
     font-size: 18px;
+  }
+
+  .topButton {
+    right: 14px;
+    bottom: 14px;
+    min-width: 68px;
+    min-height: 40px;
+    padding: 0 12px;
   }
 
   .pick {

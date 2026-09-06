@@ -42,14 +42,17 @@ const dryMatter = (food, key) => {
   return (food[key] / (100 - food.moisture)) * 100;
 };
 
+const fmtDm = (food, key, digits = 1) => {
+  const dm = dryMatter(food, key);
+  return Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가";
+};
+
 const nutrientCell = (food, key, digits = 1, toneClass = "") => {
   const badgeClass = toneClass ? `badge ${toneClass}` : "badge";
-  const dm = dryMatter(food, key);
-  const dmText = Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가";
   return `
     <div class="nutrientCell">
-      <span class="${badgeClass}">${fmt(food[key], digits)}%</span>
-      <small>${dmText}</small>
+      <span class="${badgeClass}">${fmtDm(food, key, digits)}</span>
+      <small>라벨 ${fmt(food[key], digits)}%</small>
     </div>
   `;
 };
@@ -156,12 +159,11 @@ const thumbnailMarkup = (food) =>
 const renalBadge = (food) => (isRenalCandidate(food) ? `<span class="renalBadge">신장 관리 후보</span>` : "");
 
 const nutrientDetail = (food, key, label, digits = 1, toneClass = "") => {
-  const dm = dryMatter(food, key);
   return `
     <div class="detailMetric ${toneClass}">
       <span>${label}</span>
-      <strong>${fmt(food[key], digits)}%</strong>
-      <small>${Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가"}</small>
+      <strong>${fmtDm(food, key, digits)}</strong>
+      <small>라벨 ${fmt(food[key], digits)}%</small>
     </div>
   `;
 };
@@ -225,7 +227,6 @@ const detailPanelMarkup = (food) => {
         .map((item) => `<li>${item}</li>`)
         .join("")}
     </ul>
-    <a class="sourceButton" href="${food.sourceUrl}" target="_blank" rel="noreferrer">${icon.external} 상품 페이지 보기</a>
     <p class="detailNotice">국내 상품 페이지의 보장성분 표기값 기준입니다. 질환 관리와 처방식 판단은 수의사 상담을 우선하세요.</p>
   `;
 };
@@ -282,6 +283,7 @@ app.innerHTML = `
 
     <section class="recommend">
       <div class="sectionTitle">${icon.award}<h2>추천 후보</h2></div>
+      <p class="recommendCriteria">추천 후보는 주식 제품 중 인 0.20% 이하, 조단백 7.0% 이상인 제품을 대상으로 인 낮음, 건물 기준 단백질, 지방 균형, 주식 여부를 점수화해 상위 5개를 보여줍니다.</p>
       <div class="recommendGrid">
         ${recommended
           .map(
@@ -294,9 +296,9 @@ app.innerHTML = `
                 <h3>${food.brand}</h3>
                 <p>${food.product}</p>
                 <div class="pillRow">
-                  <span class="${phosTone(food.phosphorus)}">인 ${fmt(food.phosphorus)}% · ${fmt(dryMatter(food, "phosphorus"))}% DM</span>
-                  <span>단백 ${fmt(food.protein, 1)}% · ${fmt(dryMatter(food, "protein"), 1)}% DM</span>
-                  <span>지방 ${fmt(food.fat, 1)}% · ${fmt(dryMatter(food, "fat"), 1)}% DM</span>
+                  <span class="${phosTone(food.phosphorus)}">인 ${fmtDm(food, "phosphorus", 2)} · 라벨 ${fmt(food.phosphorus)}%</span>
+                  <span>단백 ${fmtDm(food, "protein", 1)} · 라벨 ${fmt(food.protein, 1)}%</span>
+                  <span>지방 ${fmtDm(food, "fat", 1)} · 라벨 ${fmt(food.fat, 1)}%</span>
                   <span>${food.mealType}</span>
                   ${renalBadge(food)}
                   <span>${food.score}점</span>
@@ -427,6 +429,8 @@ app.innerHTML = `
       </aside>
     </div>
 
+    <button class="topButton" id="topButton" type="button" aria-label="맨 위로 이동">↑ TOP</button>
+
     <footer class="siteFooter">
       <p>© 2026 캣라벨랩. All rights reserved.</p>
       <p>본 서비스는 고양이 습식 제품의 보장성분 비교를 돕기 위한 무료 참고 도구이며, 수의사의 진료·처방을 대체하지 않습니다.</p>
@@ -499,8 +503,8 @@ const renderChecker = () => {
             <p>${food.product}</p>
             <div class="miniFacts">
               <span>${food.classification.detail}</span>
-              <span>인 ${fmt(food.phosphorus)}% · ${fmt(dryMatter(food, "phosphorus"))}% DM</span>
-              <span>단백 ${fmt(food.protein, 1)}% · ${fmt(dryMatter(food, "protein"), 1)}% DM</span>
+              <span>인 ${fmtDm(food, "phosphorus", 2)} · 라벨 ${fmt(food.phosphorus)}%</span>
+              <span>단백 ${fmtDm(food, "protein", 1)} · 라벨 ${fmt(food.protein, 1)}%</span>
             </div>
           </div>
         </article>
@@ -522,6 +526,10 @@ const closeDetail = () => {
   state.selectedFoodKey = "";
   document.querySelector("#detailOverlay").classList.remove("open");
   document.querySelector("#detailOverlay").setAttribute("aria-hidden", "true");
+};
+
+const updateTopButton = () => {
+  document.querySelector("#topButton").classList.toggle("show", window.scrollY > 520);
 };
 
 document.querySelector("#query").addEventListener("input", (event) => {
@@ -615,6 +623,9 @@ app.addEventListener("keydown", (event) => {
 
 document.querySelector("#detailClose").addEventListener("click", closeDetail);
 document.querySelector("#detailScrim").addEventListener("click", closeDetail);
+document.querySelector("#topButton").addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+window.addEventListener("scroll", updateTopButton, { passive: true });
 
+updateTopButton();
 renderRows();
 renderChecker();
