@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">캣라벨랩 공유 썸네일</title>
+  <desc id="desc">고양이 습식캔 영양성분 비교 도구를 소개하는 링크 공유 이미지</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fc"/>
+      <stop offset="0.5" stop-color="#dce8f8"/>
+      <stop offset="1" stop-color="#f7d9d2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#33415f" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="94" r="106" fill="#f7ead2" opacity="0.9"/>
+  <circle cx="102" cy="526" r="132" fill="#ffffff" opacity="0.42"/>
+  <g filter="url(#shadow)">
+    <rect x="90" y="76" width="1020" height="478" rx="36" fill="#ffffff" opacity="0.94"/>
+  </g>
+  <g transform="translate(145 122)">
+    <rect x="0" y="0" width="182" height="44" rx="22" fill="#dce8f8"/>
+    <text x="91" y="29" text-anchor="middle" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="800" fill="#33415f">CAT LABEL LAB</text>
+    <text x="0" y="116" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="0" fill="#202636">캣라벨랩</text>
+    <text x="0" y="178" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="34" font-weight="700" fill="#33415f">고양이 습식캔 영양성분 비교</text>
+    <text x="0" y="229" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="28" font-weight="500" fill="#667085">인 · 단백질 · 지방 수치를 한눈에 확인하세요</text>
+    <g transform="translate(0 296)">
+      <rect x="0" y="0" width="178" height="72" rx="18" fill="#f9fbff" stroke="#dce3f2"/>
+      <text x="28" y="31" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="17" font-weight="800" fill="#667085">낮은 인</text>
+      <text x="28" y="56" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="900" fill="#33415f">빠른 탐색</text>
+      <rect x="194" y="0" width="178" height="72" rx="18" fill="#f9fbff" stroke="#dce3f2"/>
+      <text x="222" y="31" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="17" font-weight="800" fill="#667085">제품명</text>
+      <text x="222" y="56" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="900" fill="#33415f">검색 비교</text>
+      <rect x="388" y="0" width="178" height="72" rx="18" fill="#f9fbff" stroke="#dce3f2"/>
+      <text x="416" y="31" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="17" font-weight="800" fill="#667085">주식/간식</text>
+      <text x="416" y="56" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="900" fill="#33415f">분류 확인</text>
+    </g>
+  </g>
+  <g transform="translate(820 158)">
+    <rect x="0" y="102" width="222" height="220" rx="32" fill="#6f8fbd"/>
+    <rect x="30" y="132" width="162" height="160" rx="20" fill="#f7ead2"/>
+    <path d="M61 132 L78 82 L103 132 Z" fill="#f7ead2"/>
+    <path d="M119 132 L144 82 L161 132 Z" fill="#f7ead2"/>
+    <circle cx="79" cy="197" r="12" fill="#33415f"/>
+    <circle cx="143" cy="197" r="12" fill="#33415f"/>
+    <path d="M105 219 Q111 226 117 219" stroke="#33415f" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M111 227 V246" stroke="#33415f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M74 249 Q111 276 148 249" stroke="#33415f" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <rect x="24" y="48" width="172" height="82" rx="20" fill="#ffffff" stroke="#dce3f2"/>
+    <text x="110" y="83" text-anchor="middle" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="900" fill="#202636">P 0.08%</text>
+    <text x="110" y="112" text-anchor="middle" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" font-size="18" font-weight="800" fill="#667085">protein 12%</text>
+  </g>
+</svg>
