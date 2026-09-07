@@ -487,7 +487,7 @@ app.innerHTML = `
     <button class="topButton" id="topButton" type="button" aria-label="맨 위로 이동">↑ TOP</button>
 
     <footer class="siteFooter">
-      <p>© 2026 캣라벨랩. All rights reserved.</p>
+      <p>애봉·봉순·순애 고양이 집사가 만들었어요. <a href="https://blog.naver.com/colbi_orda/" target="_blank" rel="noreferrer">블로그 보기</a></p>
       <p>본 서비스는 고양이 습식 제품의 보장성분 비교를 돕기 위한 무료 참고 도구이며, 수의사의 진료·처방을 대체하지 않습니다.</p>
     </footer>
   </main>
