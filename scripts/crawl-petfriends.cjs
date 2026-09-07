@@ -255,7 +255,7 @@ const parseProduct = async ({ url, mealType }) => {
     brand,
     line: product.split(/\s+/).slice(0, 3).join(" "),
     product,
-    format: /캔|can/i.test(localText) || /캔/.test(categoryName) ? "can" : /파우치|pouch/i.test(localText) ? "pouch" : "wet",
+    format: /트레이|tray/i.test(localText) ? "tray" : /캔|can/i.test(localText) || /캔/.test(categoryName) ? "can" : /파우치|pouch/i.test(localText) ? "pouch" : "wet",
     mealType,
     origin: textAfterLabel(explanation, "원산지") || "미공개",
     maker: textAfterLabel(explanation, "제조사") || textAfterLabel(explanation, "제조사/수입사") || "미공개",
@@ -271,13 +271,13 @@ const parseProduct = async ({ url, mealType }) => {
     sourceUrl: url
   };
 
-  const isWetCan =
-    food.format === "can" &&
+  const isWetProduct =
+    ["can", "pouch", "tray"].includes(food.format) &&
     !/\d+(?:\.\d+)?\s*kg/i.test(localText) &&
-    (Number.isFinite(food.moisture) ? food.moisture >= 50 : /습식|캔|그레이비|무스|스튜|파테|테린|수분/.test(localText));
+    (Number.isFinite(food.moisture) ? food.moisture >= 50 : /습식|캔|파우치|트레이|그레이비|무스|스튜|파테|테린|수분/.test(localText));
 
-  if (!isWetCan) {
-    return { skipped: true, reason: "습식 캔 아님", url, title, format: food.format, moisture: food.moisture };
+  if (!isWetProduct) {
+    return { skipped: true, reason: "지원 습식 형태 아님", url, title, format: food.format, moisture: food.moisture };
   }
 
   if (!Number.isFinite(food.protein) || !Number.isFinite(food.fat) || !Number.isFinite(food.phosphorus)) {
@@ -342,7 +342,7 @@ async function main() {
   const skipped = results.filter((result) => result?.skipped);
   if (petfriendsFoods.length === 0) {
     await writeFile(SKIPPED_OUT, JSON.stringify(skipped, null, 2));
-    throw new Error("펫프렌즈 습식 캔 데이터가 0개라 기존 데이터 파일을 덮어쓰지 않았습니다.");
+    throw new Error("펫프렌즈 습식 제품 데이터가 0개라 기존 데이터 파일을 덮어쓰지 않았습니다.");
   }
 
   const foods = mergeFoods(baseFoods, petfriendsFoods);
@@ -361,7 +361,7 @@ async function main() {
         source: {
           name: "고양이대통령 + 펫프렌즈 공개 상품 페이지",
           url: "https://catpre.com/sitemap.xml, https://m.pet-friends.co.kr/category/2/4/17",
-          notes: "고양이대통령 사이트맵과 펫프렌즈 고양이 주식캔/간식캔 공개 상품 페이지를 순회해 대한민국에서 판매되는 고양이 습식 캔을 자동 수집했습니다. 조단백, 조지방, 인, 수분은 국내 라벨의 보장성분 표기값 기준입니다.",
+          notes: "고양이대통령 사이트맵과 펫프렌즈 고양이 주식캔/간식캔 공개 상품 페이지를 순회해 대한민국에서 판매되는 고양이 습식 캔/파우치/트레이를 자동 수집했습니다. 조단백, 조지방, 인, 수분은 국내 라벨의 보장성분 표기값 기준입니다.",
           retrievedAt: new Date().toISOString().slice(0, 10),
           totalProductUrlsChecked: sources.reduce((total, source) => total + (source.totalProductUrlsChecked || 0), 0),
           skippedProducts: sources.reduce((total, source) => total + (source.skippedProducts || 0), 0)
@@ -375,7 +375,7 @@ async function main() {
   );
   await writeFile(SKIPPED_OUT, JSON.stringify(skipped, null, 2));
 
-  console.log(`펫프렌즈 습식 캔 ${petfriendsFoods.length}개 추가 후보 저장`);
+  console.log(`펫프렌즈 습식 제품 ${petfriendsFoods.length}개 추가 후보 저장`);
   console.log(`병합 후 전체 ${foods.length}개`);
 }
 

@@ -1,7 +1,16 @@
-const dataset = await fetch(`/data/cat-foods.json?v=${Date.now()}`).then((response) => {
+const baseDataset = await fetch(`/data/cat-foods.json?v=${Date.now()}`).then((response) => {
   if (!response.ok) throw new Error("데이터를 불러오지 못했습니다.");
   return response.json();
 });
+
+const manualDataset = await fetch(`/data/manual-foods.json?v=${Date.now()}`)
+  .then((response) => (response.ok ? response.json() : { foods: [] }))
+  .catch(() => ({ foods: [] }));
+
+const dataset = {
+  ...baseDataset,
+  foods: [...baseDataset.foods, ...(manualDataset.foods || [])]
+};
 
 const metrics = {
   phosphorus: { label: "인", unit: "%", help: "국내 상품 라벨의 보장성분 표기값입니다. 낮은 인을 찾을 때 먼저 보는 항목이에요." },
@@ -166,7 +175,7 @@ const foodKey = (food) => encodeURIComponent(food.sourceUrl || foodId(food));
 
 const foodByKey = (key) => dataset.foods.find((food) => foodKey(food) === key);
 
-const formatLabel = (format) => (format === "pouch" ? "파우치" : format === "can" ? "캔" : "기타");
+const formatLabel = (format) => (format === "pouch" ? "파우치" : format === "tray" ? "트레이" : format === "can" ? "캔" : "기타");
 
 const typeFilterValue = (food) => {
   const classification = classifyFood(food);
@@ -183,10 +192,10 @@ const uniqueOptions = (values) =>
 
 const originOptions = uniqueOptions(dataset.foods.map((food) => food.origin || "미공개"));
 
+const fallbackThumbnailUrl = "/assets/soon-ae-placeholder.png";
+
 const thumbnailMarkup = (food) =>
-  food.thumbnailUrl
-    ? `<img class="foodThumb" src="${food.thumbnailUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.classList.add('isMissing')" />`
-    : `<span class="foodThumb empty" aria-hidden="true"></span>`;
+  `<img class="foodThumb${food.thumbnailUrl ? "" : " fallback"}" src="${food.thumbnailUrl || fallbackThumbnailUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if (this.src.endsWith('${fallbackThumbnailUrl}')) { this.classList.add('isMissing'); } else { this.src = '${fallbackThumbnailUrl}'; this.classList.add('fallback'); }" />`;
 
 const renalBadge = (food) => (isRenalCandidate(food) ? `<span class="renalBadge">신장 관리 후보</span>` : "");
 
@@ -289,7 +298,7 @@ const rows = () =>
     .filter((food) => state.formatFilter === "all" || food.format === state.formatFilter)
     .filter((food) => !state.renalOnly || isRenalCandidate(food))
     .filter((food) => `${food.brand} ${food.line} ${food.product} ${food.origin}`.toLowerCase().includes(state.query.toLowerCase()))
-    .filter((food) => food.phosphorus <= state.maxPhos && food.protein >= state.minProtein && food.fat <= state.maxFat)
+    .filter((food) => state.query.trim() || (food.phosphorus <= state.maxPhos && food.protein >= state.minProtein && food.fat <= state.maxFat))
     .sort((a, b) => {
       const delta = a[state.metric] - b[state.metric];
       return state.direction === "asc" ? delta : -delta;
@@ -322,7 +331,7 @@ app.innerHTML = `
           <p>국내 판매 고양이 습식 제품의 보장성분을 한눈에 비교합니다.</p>
         </div>
         <div class="summaryStats" aria-label="데이터 요약">
-          <span><strong>${dataStats.total}</strong>습식 캔</span>
+          <span><strong>${dataStats.total}</strong>습식 제품</span>
           <span><strong>${dataStats.staple}</strong>주식</span>
           <span><strong>${dataStats.snack}</strong>간식</span>
           <span><strong>${dataStats.unknown}</strong>유형 미확인</span>
@@ -419,6 +428,7 @@ app.innerHTML = `
             <span id="maxFatLabel">최대 조지방: ${fmt(state.maxFat, 1)}%</span>
             <input id="maxFat" type="range" min="0" max="${dataStats.maxFat}" step="0.1" value="${state.maxFat}" />
           </label>
+          <button class="rangeReset" id="rangeReset" type="button">전체 범위</button>
         </div>
         <div class="tableFilters" aria-label="성분 정렬 필터">
           <label class="tableSearch">
@@ -448,6 +458,7 @@ app.innerHTML = `
               <option value="all">전체</option>
               <option value="can">캔</option>
               <option value="pouch">파우치</option>
+              <option value="tray">트레이</option>
               <option value="wet">기타</option>
             </select>
           </label>
@@ -496,7 +507,7 @@ app.innerHTML = `
 const renderRows = () => {
   const currentRows = rows();
   document.querySelector("#rowCount").textContent = `${currentRows.length}개 제품 표시 중`;
-  document.querySelector("#metricHelp").textContent = `${metrics[state.metric].label}: ${metrics[state.metric].help} 표시는 라벨 기준값과 DM(건물 기준) 환산값을 함께 보여줍니다.`;
+  document.querySelector("#metricHelp").textContent = `${metrics[state.metric].label}: ${metrics[state.metric].help} 표시는 라벨 기준값과 DM(건물 기준) 환산값을 함께 보여줍니다. 검색어가 있으면 성분 범위는 적용하지 않습니다.`;
   document.querySelector("#direction").textContent = state.direction === "asc" ? "↓" : "↑";
   document.querySelector("#query").value = state.query;
   document.querySelector("#tableQuery").value = state.query;
@@ -590,6 +601,15 @@ const updateTopButton = () => {
   document.querySelector("#topButton").classList.toggle("show", window.scrollY > 520);
 };
 
+const updateRangeControls = () => {
+  document.querySelector("#maxPhos").value = state.maxPhos;
+  document.querySelector("#minProtein").value = state.minProtein;
+  document.querySelector("#maxFat").value = state.maxFat;
+  document.querySelector("#maxPhosLabel").textContent = `최대 인: ${fmt(state.maxPhos)}%`;
+  document.querySelector("#minProteinLabel").textContent = `최소 조단백: ${fmt(state.minProtein, 1)}%`;
+  document.querySelector("#maxFatLabel").textContent = `최대 조지방: ${fmt(state.maxFat, 1)}%`;
+};
+
 document.querySelector("#query").addEventListener("input", (event) => {
   state.query = event.target.value;
   renderRows();
@@ -637,6 +657,14 @@ document.querySelector("#minProtein").addEventListener("input", (event) => {
 document.querySelector("#maxFat").addEventListener("input", (event) => {
   state.maxFat = Number(event.target.value);
   document.querySelector("#maxFatLabel").textContent = `최대 조지방: ${fmt(state.maxFat, 1)}%`;
+  renderRows();
+});
+
+document.querySelector("#rangeReset").addEventListener("click", () => {
+  state.maxPhos = dataStats.maxPhos;
+  state.minProtein = dataStats.minProtein;
+  state.maxFat = dataStats.maxFat;
+  updateRangeControls();
   renderRows();
 });
 

@@ -89,6 +89,7 @@ const isExcludedBrand = (...values) =>
 
 const inferFormat = (title, localText) => {
   const scoped = `${title} ${localText}`;
+  if (scoped.includes("트레이")) return "tray";
   if (scoped.includes("캔")) return "can";
   if (scoped.includes("파우치")) return "pouch";
   return "wet";
@@ -103,12 +104,12 @@ const inferMealType = (title, localText) => {
   return "확인필요";
 };
 
-const isWetCan = (food, composition, localText) => {
+const isWetProduct = (food, composition, localText) => {
   const scoped = `${food.product} ${food.line} ${localText}`;
-  const isCan = food.format === "can";
-  const looksWet = Number.isFinite(food.moisture) ? food.moisture >= 50 : /습식|캔|그레이비|무스|스튜|파테|테린|수분/.test(scoped);
+  const supportedFormat = ["can", "pouch", "tray"].includes(food.format);
+  const looksWet = Number.isFinite(food.moisture) ? food.moisture >= 50 : /습식|캔|파우치|트레이|그레이비|무스|스튜|파테|테린|수분/.test(scoped);
   const notDryBulk = !/\d+(?:\.\d+)?\s*kg/.test(scoped) && !(Number.isFinite(food.moisture) && food.moisture <= 20);
-  return isCan && looksWet && notDryBulk && composition.includes("조단백") && composition.includes("조지방") && composition.includes("인");
+  return supportedFormat && looksWet && notDryBulk && composition.includes("조단백") && composition.includes("조지방") && composition.includes("인");
 };
 
 const cleanProductTitle = (value) =>
@@ -195,8 +196,8 @@ async function parseProduct(url) {
     sourceUrl: url
   };
 
-  if (!isWetCan(food, composition, localText)) {
-    return { skipped: true, reason: "습식 캔 아님", url, title, format: food.format, moisture: food.moisture };
+  if (!isWetProduct(food, composition, localText)) {
+    return { skipped: true, reason: "지원 습식 형태 아님", url, title, format: food.format, moisture: food.moisture };
   }
 
   if (!Number.isFinite(food.protein) || !Number.isFinite(food.fat) || !Number.isFinite(food.phosphorus)) {
@@ -253,7 +254,7 @@ async function main() {
 
   if (foods.length === 0) {
     await writeFile(SKIPPED_OUT, JSON.stringify(skipped, null, 2));
-    throw new Error("습식 캔 데이터가 0개라 기존 데이터 파일을 덮어쓰지 않았습니다.");
+    throw new Error("습식 제품 데이터가 0개라 기존 데이터 파일을 덮어쓰지 않았습니다.");
   }
 
   await mkdir(path.dirname(OUT), { recursive: true });
@@ -264,7 +265,7 @@ async function main() {
         source: {
           name: "고양이대통령 공개 상품 페이지",
           url: "https://catpre.com/sitemap.xml",
-          notes: "고양이대통령 사이트맵의 상품 상세 페이지를 순회해 대한민국에서 판매되는 고양이 습식 캔을 자동 수집했습니다. 조단백, 조지방, 인, 수분은 국내 라벨의 보장성분 표기값 기준입니다.",
+          notes: "고양이대통령 사이트맵의 상품 상세 페이지를 순회해 대한민국에서 판매되는 고양이 습식 캔/파우치/트레이를 자동 수집했습니다. 조단백, 조지방, 인, 수분은 국내 라벨의 보장성분 표기값 기준입니다.",
           retrievedAt: new Date().toISOString().slice(0, 10),
           totalProductUrlsChecked: urls.length,
           skippedProducts: skipped.length
@@ -281,7 +282,7 @@ async function main() {
     acc[food.mealType] = (acc[food.mealType] || 0) + 1;
     return acc;
   }, {});
-  console.log(`${foods.length}개 습식 캔 저장`);
+  console.log(`${foods.length}개 습식 제품 저장`);
   console.log(`주식 ${mealCount["주식"] || 0}개, 간식 ${mealCount["간식"] || 0}개, 확인필요 ${mealCount["확인필요"] || 0}개`);
 }
 

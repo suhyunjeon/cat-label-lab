@@ -1,21 +1,29 @@
 [
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/347662",
-    "title": "베스트 프라이스 캣 그레인프리 주식캔 3종 모음"
+    "reason": "맛 정보 없는 일반 상품명",
+    "url": "https://m.pet-friends.co.kr/product/detail/327317",
+    "title": "테라펠리스 주식캔",
+    "brand": "테라펠리스",
+    "product": "주식캔"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/346700",
-    "title": "[체험단] 베스트 프라이스 캣 그레인프리 주식캔 참치&연어 75g"
+    "url": "https://m.pet-friends.co.kr/product/detail/347662",
+    "title": "베스트 프라이스 캣 그레인프리 주식캔 모음"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/346477",
+    "title": "베스트 프라이스 캣 그레인프리 주식캔 참치&치킨 75g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/109860",
-    "title": "아보덤 캣 내추럴 그레인프리 캔 6종 [모음]"
+    "title": "아보덤 캣 내추럴 그레인프리 캔"
   },
   {
     "skipped": true,
@@ -27,19 +35,13 @@
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/246515",
-    "title": "조공 내추럴 습식캔 5종 [모음]"
+    "title": "조공 내추럴 습식캔"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/8245",
     "title": "알모네이쳐 캣 닭고기&참치 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/322450",
-    "title": "캣츠테이스트 퍼펙트 밸런스 주식캔 85g 4종 [모음]"
   },
   {
     "skipped": true,
@@ -56,8 +58,14 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/322450",
+    "title": "캣츠테이스트 퍼펙트 밸런스 주식캔 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/356150",
-    "title": "[24개] 퓨리나 캣 팬시피스트 85g + 포티플로라 30g"
+    "title": "퓨리나 캣 팬시피스트 85g + 포티플로라 30g"
   },
   {
     "skipped": true,
@@ -73,9 +81,19 @@
   },
   {
     "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/246516"
+  },
+  {
+    "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/3591",
-    "title": "네이처스 버라이어티 캣 생식본능 치킨 캔 85g"
+    "url": "https://m.pet-friends.co.kr/product/detail/287104",
+    "title": "알모네이쳐 캣 HFC 무스 고등어와 닭고기 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3591"
   },
   {
     "skipped": true,
@@ -85,17 +103,12 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/287104"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/246516"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/42435"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/251021"
   },
   {
     "skipped": true,
@@ -105,27 +118,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/305009"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/325140"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/77073"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/300177"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/222173"
   },
   {
     "skipped": true,
@@ -134,114 +127,57 @@
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7305"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/325140",
+    "title": "캣츠테이스트 퍼펙트 밸런스 주식캔 85g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7302"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/287103",
+    "title": "알모네이쳐 캣 HFC 무스 참치와 새우 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8243"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/8243",
+    "title": "알모네이쳐 캣 닭가슴살 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/287103"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/222172"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324540"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/6689"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/346477"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/51757"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8230"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/92289"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198429"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/122944"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202094"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3765"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202438"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3567"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/64695"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/51755"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/92291"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/41855"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/8230",
+    "title": "지위픽 캣 소고기 캔 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/346478",
     "title": "베스트 프라이스 캣 그레인프리 주식캔 참치&연어 75g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/41851",
+    "title": "보레알 캣 치킨&연어 캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/41855",
+    "title": "보레알 캣 돼지고기&송어 캔 156g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/336696",
+    "title": "오리젠 캣 주식캔 모음"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/36526",
+    "title": "보레알 캣 치킨&오리 캔 80g"
   },
   {
     "skipped": true,
@@ -257,212 +193,28 @@
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/336696",
-    "title": "오리젠 캣 주식캔 12종 모음"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/41851",
-    "title": "보레알 캣 치킨&연어 캔 80g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/35509",
-    "title": "알모네이쳐 캣 닭고기 키튼 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/36526",
-    "title": "보레알 캣 치킨&오리 캔 80g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/8227",
-    "title": "지위픽 캣 고등어 캔 185g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/8231",
-    "title": "지위픽 캣 고등어&양고기 캔 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/8225",
-    "title": "지위픽 캣 닭고기 캔 185g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/350935",
-    "title": "네이처스 버라이어티 캣 생식본능 토끼 캔 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/346476",
-    "title": "베스트 프라이스 캣 그레인프리 주식캔 참치 75g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/356895"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/36291"
+    "url": "https://m.pet-friends.co.kr/product/detail/351812"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202100"
+    "url": "https://m.pet-friends.co.kr/product/detail/35509"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77792"
+    "url": "https://m.pet-friends.co.kr/product/detail/59658"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/59653"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202437"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/92293"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/346698"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/353893"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8232"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/101852"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/123564"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/31816"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8228"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7313"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198492"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202091"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/62277"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/123567"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/356894"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/24914"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/206429"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/53274"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202096"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77086"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8229"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/197370"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/59656"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/88908"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/305019"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/162503"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/36529"
+    "url": "https://m.pet-friends.co.kr/product/detail/36527"
   },
   {
     "skipped": true,
@@ -472,62 +224,246 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7824"
+    "url": "https://m.pet-friends.co.kr/product/detail/3568"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8220"
+    "url": "https://m.pet-friends.co.kr/product/detail/198428"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/82157"
+    "url": "https://m.pet-friends.co.kr/product/detail/77074"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/88909"
+    "url": "https://m.pet-friends.co.kr/product/detail/198493"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/29568"
+    "url": "https://m.pet-friends.co.kr/product/detail/42430"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/287105"
+    "url": "https://m.pet-friends.co.kr/product/detail/3569"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/101853"
+    "url": "https://m.pet-friends.co.kr/product/detail/350935"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/82154"
+    "url": "https://m.pet-friends.co.kr/product/detail/253211"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/25871"
+    "url": "https://m.pet-friends.co.kr/product/detail/351810"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198494"
+    "url": "https://m.pet-friends.co.kr/product/detail/36289"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/195002"
+    "url": "https://m.pet-friends.co.kr/product/detail/8227"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3580"
+    "url": "https://m.pet-friends.co.kr/product/detail/35508"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/346476"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/123563"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/31817"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/59653"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/62277"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/353893"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/8225"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/346698"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/77084"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/123564"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/8231"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/53274"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/198492"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7313"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202100"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36529"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/206429"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/92293"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/77792"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202437"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36291"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202091"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/59656"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/8232"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/356894"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/31816"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/77086",
+    "title": "피쉬포캣 참치&게살 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/82154",
+    "title": "몬지 캣 비와일드 그레인프리 파테 테린 연어 캔 100g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/287105",
+    "title": "알모네이쳐 캣 HFC 무스 닭고기와 호박 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/8229",
+    "title": "지위픽 캣 양고기 캔 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/88908",
+    "title": "프린세스 캣 프리미엄 엑설런스 치킨&튜나&흰살생선 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/88909",
+    "title": "프린세스 캣 프리미엄 엑설런스 퍼시픽 튜나 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/8228",
+    "title": "지위픽 캣 사슴고기 캔 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/7824",
+    "title": "보레알 캣 치킨&칠면조 캔 156g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/197370",
+    "title": "쉐지애 캣 애프터다크 파테/홀푸드브로스 주식캔 80g"
   },
   {
     "skipped": true,
@@ -537,17 +473,29 @@
   },
   {
     "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/5854",
-    "title": "로우즈 캣 96% 칠면조&칠면조간 파테 캔 156g",
-    "format": "can",
-    "moisture": 78
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/7823",
+    "title": "보레알 캣 치킨&오리 캔 156g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/7823",
-    "title": "보레알 캣 치킨&오리 캔 156g"
+    "url": "https://m.pet-friends.co.kr/product/detail/8220",
+    "title": "지위픽 캣 고등어&양고기 캔 185g"
+  },
+  {
+    "skipped": true,
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/25871",
+    "title": "지위픽 캣 소고기 캔 185g",
+    "format": "can",
+    "moisture": null
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/195002",
+    "title": "이나바 캣 챠오 참치&닭가슴살&치어 85g"
   },
   {
     "skipped": true,
@@ -559,62 +507,32 @@
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/353949",
-    "title": "[신상특가][4+1] 아카나 고양이 주식캔 85g [모음]"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/88906",
-    "title": "프린세스 캣 프리미엄 엑설런스 치킨&튜나&살몬 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/25870",
-    "title": "지위픽 캣 사슴고기 캔 185g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/7315",
-    "title": "네이처스 버라이어티 캣 생식본능 참치 민스컵 99g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/344623",
-    "title": "[24개] 알모네이쳐 캣 대서양참치 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/25872",
-    "title": "지위픽 캣 양고기 캔 185g"
+    "title": "아카나 고양이 주식캔 85g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/62279"
+    "url": "https://m.pet-friends.co.kr/product/detail/62278"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/351813"
+    "url": "https://m.pet-friends.co.kr/product/detail/5854"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224547"
+    "url": "https://m.pet-friends.co.kr/product/detail/253027"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/29569"
+    "url": "https://m.pet-friends.co.kr/product/detail/253179"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/82155"
+    "url": "https://m.pet-friends.co.kr/product/detail/119540"
   },
   {
     "skipped": true,
@@ -624,172 +542,37 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198431"
+    "url": "https://m.pet-friends.co.kr/product/detail/42434"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7318"
+    "url": "https://m.pet-friends.co.kr/product/detail/351813"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/202092"
+    "url": "https://m.pet-friends.co.kr/product/detail/223961"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/195001"
+    "url": "https://m.pet-friends.co.kr/product/detail/205260"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/36530"
+    "url": "https://m.pet-friends.co.kr/product/detail/236497"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77088"
+    "url": "https://m.pet-friends.co.kr/product/detail/77085"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/28738"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77786"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/253178"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/123565"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350696"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/217966"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350272"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/238530"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224556"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/36290"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/176630"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/193707"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/217961"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77087"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348886"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205255"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/356896"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/356898"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/42431"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106427"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7312"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205262"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/88911"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/322155"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347105"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347106"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/351817"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/217965"
+    "url": "https://m.pet-friends.co.kr/product/detail/224553"
   },
   {
     "skipped": true,
@@ -799,41 +582,206 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/5974"
+    "url": "https://m.pet-friends.co.kr/product/detail/344623"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/64706"
+    "url": "https://m.pet-friends.co.kr/product/detail/301169"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/117010"
+    "url": "https://m.pet-friends.co.kr/product/detail/88906"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/189612"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/356893"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36292"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/25870"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/25872"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/62279"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/224547"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/198431"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/64693"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/145141"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/217961"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36530"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/29569"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/123565"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7315"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202092"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/82155"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/347106"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194333"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/64705"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7318"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36290"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/28738"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/176630"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/253178"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/305020"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/77088"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/195001",
+    "title": "이나바 캣 챠오 참치&닭가슴살&가리비 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/77087",
+    "title": "피쉬포캣 참치&오징어 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348886",
+    "title": "이나바 캣 챠오 참치&닭가슴살&치어 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/88911",
+    "title": "프린세스 캣 프리미엄 엑설런스 치킨&튜나&펌킨 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350272",
+    "title": "마이베프 마이슐랭 치킨 파테 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/77786",
+    "title": "카니러브 캣 닭고기&오리&꿩고기 캔 100g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/7312",
+    "title": "네이처스 캣 생식본능 치킨 민스컵 99g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350696",
+    "title": "힐스 캣 어덜트 7+ 시니어 바이탈리티 치킨 & 베지터블 스튜 82g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/350929",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 오리 캔 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/88907",
-    "title": "프린세스 캣 프리미엄 엑설런스 치킨&튜나&쉬림프 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/129915",
-    "title": "마이베프 마이슐랭 치킨&튜나 파테 80g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/312344",
-    "title": "[무료배송] 포르자10 캣 인테스티널 주식캔 600g (100gx6개)"
+    "title": "네이처스 캣 생식본능 오리지날 오리 캔 85g"
   },
   {
     "skipped": true,
@@ -844,34 +792,178 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348887",
-    "title": "이나바 캣 챠오 참치&닭가슴살&가리비 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/46778",
     "title": "지위픽 캣 토끼&양고기 캔 185g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/190331"
+    "url": "https://m.pet-friends.co.kr/product/detail/59651"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/134004"
+    "url": "https://m.pet-friends.co.kr/product/detail/236498"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/88913"
+    "url": "https://m.pet-friends.co.kr/product/detail/293349"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/46335"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/213674"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/186861"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/312344"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/65594"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/205256"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/176632"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/88907"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/169396"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202095"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/217964"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/195454"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348887"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/129915"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/36528"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/356897"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/111238"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/5974"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/236499"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/62274"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/234572"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/107544"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330675"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/353894"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/213675"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330683"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/28739"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/224546"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/65596"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/217962"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/269761"
   },
   {
     "skipped": true,
@@ -886,7 +978,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/236499"
+    "url": "https://m.pet-friends.co.kr/product/detail/122008"
   },
   {
     "skipped": true,
@@ -896,32 +988,22 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/190329"
+    "url": "https://m.pet-friends.co.kr/product/detail/327572"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/65596"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330675"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/165207"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/28739"
+    "url": "https://m.pet-friends.co.kr/product/detail/65597"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/6627"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/195455"
   },
   {
     "skipped": true,
@@ -935,247 +1017,105 @@
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/111238"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/269761"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224546"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/301168"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/59652"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/251019"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/234572"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/247666"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77793"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/300179"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/62274"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350940"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224550"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/169396"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/345324"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/353872"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/175550"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/59654"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/42428"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/81823"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344618"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/234570"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/335751"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/264547"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205276"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/269760"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/183865"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350925"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/88913",
+    "title": "프린세스 캣 프리미엄 엑설런스 치킨브레스트 헤어볼 컨트롤 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/350936",
-    "title": "네이처스 버라이어티 캣 생식본능 참치 민스컵 99g"
+    "url": "https://m.pet-friends.co.kr/product/detail/134004",
+    "title": "네이처스 캣 생식본능 오리지날 오리 캔 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/194904",
-    "title": "쉐지애 캣 애프터다크 홀푸드브로스 닭 주식캔 80g"
+    "url": "https://m.pet-friends.co.kr/product/detail/350940",
+    "title": "네이처스 캣 생식본능 치킨 캔 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/353871",
-    "title": "[NEW신상]아카나 주식캔 청크 치킨 앤 참치 어덜트 캣 85g"
+    "url": "https://m.pet-friends.co.kr/product/detail/350925",
+    "title": "네이처스 캣 생식본능 오리지날 치킨 캔 156g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/247666",
+    "title": "질란디아 캣 파테 캔"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344618",
+    "title": "알모네이쳐 캣 참치&뱅어 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/350926",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 연어 캔 156g"
+    "title": "네이처스 캣 생식본능 오리지날 연어 캔 156g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/364142",
-    "title": "[창고대방출]네이처스 버라이어티 캣 생식본능 참치 민스컵 99g"
+    "url": "https://m.pet-friends.co.kr/product/detail/353872",
+    "title": "아카나 주식캔 청크 연어 앤 치킨 어덜트 캣 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/183979",
-    "title": "뉴트리플랜 캣 하루영양 캔 어덜트 면역&유리너리 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327552",
-    "title": "네츄럴코어 캣 치킨&정어리 파테 캔 85g",
-    "brand": "네츄럴코어"
+    "url": "https://m.pet-friends.co.kr/product/detail/183865",
+    "title": "뉴트리플랜 캣 하루영양 캔 키튼 면역&성장 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/344617",
-    "title": "[24개] 알모네이쳐 캣 참치&닭고기&치즈 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/353869",
-    "title": "[NEW신상]아카나 주식캔 청크 치킨 앤 연어 키튼 85g"
+    "url": "https://m.pet-friends.co.kr/product/detail/350936",
+    "title": "네이처스 캣 생식본능 참치 민스컵 99g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/331133",
-    "title": "뉴트리플랜 하루영양 캔 3종 [모음]"
+    "title": "뉴트리플랜 하루영양 캔"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/319374",
-    "title": "[창고대방출]쉐지애 캣 애프터다크 파테 닭&오리 주식캔 80g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348885",
-    "title": "이나바 캣 챠오 참치&닭가슴살&게맛살 85g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/111230",
-    "title": "고양이 파테 타입 주식캔 12종 [모음]"
+    "url": "https://m.pet-friends.co.kr/product/detail/353871",
+    "title": "아카나 주식캔 청크 치킨 앤 참치 어덜트 캣 85g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/345331"
+    "url": "https://m.pet-friends.co.kr/product/detail/280322"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327126"
+    "url": "https://m.pet-friends.co.kr/product/detail/327552"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327572"
+    "url": "https://m.pet-friends.co.kr/product/detail/253216"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324539"
+    "url": "https://m.pet-friends.co.kr/product/detail/81786"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/65601"
+    "url": "https://m.pet-friends.co.kr/product/detail/224551"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/344616"
   },
   {
     "skipped": true,
@@ -1185,37 +1125,37 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/269755"
+    "url": "https://m.pet-friends.co.kr/product/detail/327126"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/176242"
+    "url": "https://m.pet-friends.co.kr/product/detail/205281"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/193570"
+    "url": "https://m.pet-friends.co.kr/product/detail/327125"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/111233"
+    "url": "https://m.pet-friends.co.kr/product/detail/359997"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/230763"
+    "url": "https://m.pet-friends.co.kr/product/detail/234571"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166966"
+    "url": "https://m.pet-friends.co.kr/product/detail/183979"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/253208"
+    "url": "https://m.pet-friends.co.kr/product/detail/345320"
   },
   {
     "skipped": true,
@@ -1225,7 +1165,127 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/337802"
+    "url": "https://m.pet-friends.co.kr/product/detail/330677"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164638"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194904"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/111230"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/65599"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/345331"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/190330"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/65600"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/183981"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324539"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/280321"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/353869"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/269755"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/193570"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/319374"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/195123"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/111233"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/251025"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/230763"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327124"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166966"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/65602"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/344617"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/253208"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348885"
   },
   {
     "skipped": true,
@@ -1245,162 +1305,87 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205282"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/88910"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330676"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/344621"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/129913"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/322153"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/81780"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/168617"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/264553"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/345322"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/251021"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/81779"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205259"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344622"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344615"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350930"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/345329"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/230762"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/194905"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/194907"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/183981"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344620"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/280321"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327551"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330680"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327550"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/88910",
+    "title": "프린세스 캣 프리미엄 엑설런스 치킨브레스트&터키 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/195123",
-    "title": "조공 소피 캣 테이스티 참치 90g"
+    "url": "https://m.pet-friends.co.kr/product/detail/129913",
+    "title": "마이베프 마이슐랭 치킨 파테 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344622",
+    "title": "알모네이쳐 캣 닭가슴살 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350930",
+    "title": "네이처스 캣 생식본능 오리지날 토끼 캔 156g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/194905",
+    "title": "쉐지애 캣 애프터다크 홀푸드브로스 닭&메추리알 주식캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344620",
+    "title": "알모네이쳐 캣 닭고기&참치 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327551",
+    "title": "네츄럴코어 캣 치킨&참치 파테 캔 85g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327550",
+    "title": "네츄럴코어 캣 치킨&흰살생선 파테 캔 85g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/164635",
+    "title": "네이처스 캣 생식본능 오리지날 오리 캔 156g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/164630",
-    "title": "[웰컴딜] 알모네이쳐 캣 대서양참치 캔 70g"
+    "title": "알모네이쳐 캣 대서양참치 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344614",
+    "title": "알모네이쳐 캣 닭고기 키튼 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/350939",
-    "title": "네이처스 버라이어티 캣 생식본능 치킨 민스컵 99g"
+    "title": "네이처스 캣 생식본능 치킨 민스컵 99g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/166955",
-    "title": "[웰컴딜] 보레알 캣 치킨&연어 캔 156g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164638",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 치킨 캔 156g"
+    "title": "보레알 캣 치킨&연어 캔 156g"
   },
   {
     "skipped": true,
@@ -1410,39 +1395,98 @@
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/353873",
-    "title": "[NEW신상]아카나 주식캔 청크 램 앤 키드니 어덜트 캣 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/239613"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164635",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 오리 캔 156g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/81781"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/350927",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 오리 캔 156g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/251015"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/344614",
-    "title": "[24개] 알모네이쳐 캣 닭고기 키튼 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/353873"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164637",
-    "title": "네이처스 버라이어티 캣 생식본능 오리지날 연어 캔 156g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/193574"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164654",
-    "title": "[웰컴딜] 알모네이쳐 캣 참치&뱅어 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/239611"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/205277"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194907"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/205283"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/239612"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202106"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/222173"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327122"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/339550"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/350927"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194906"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164654"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/253212"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164659"
   },
   {
     "skipped": true,
@@ -1457,17 +1501,37 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164497"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164631"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164637"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330674"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164694"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/164498"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/324541"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164497"
   },
   {
     "skipped": true,
@@ -1502,11 +1566,6 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164322"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/118728"
   },
   {
@@ -1532,22 +1591,12 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164694"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/164693"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/164473"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164631"
   },
   {
     "skipped": true,
@@ -1562,113 +1611,37 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330672"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/164661"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327127"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/194913",
+    "title": "쉐지애 캣 애프터다크 파테 닭&오리 주식캔 80g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164474"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/166957",
+    "title": "보레알 캣 치킨&연어&오리 캔 156g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/150941"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/166725",
+    "title": "보레알 캣 치킨&오리 캔 156g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164323"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344619",
+    "title": "알모네이쳐 캣 닭고기&호박 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164318"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164479"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/343051"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/194913"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164690"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166840"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/341073"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164472"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/168616"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/264544"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/150942"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166957"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166725"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344619"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/205285"
-  },
-  {
-    "skipped": true,
-    "reason": "습식 캔 아님",
+    "reason": "지원 습식 형태 아님",
     "url": "https://m.pet-friends.co.kr/product/detail/166798",
-    "title": "[웰컴딜] 로우즈 캣 96% 칠면조&칠면조간 파테 캔 156g",
+    "title": "로우즈 캣 96% 칠면조&칠면조간 파테 캔 156g",
     "format": "can",
     "moisture": 78
   },
@@ -1676,13 +1649,13 @@
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/164653",
-    "title": "[웰컴딜] 알모네이쳐 캣 닭고기&호박 캔 70g"
+    "title": "알모네이쳐 캣 닭고기&호박 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "습식 캔 아님",
+    "reason": "지원 습식 형태 아님",
     "url": "https://m.pet-friends.co.kr/product/detail/166807",
-    "title": "[웰컴딜] 로우즈 캣 96% 치킨&청어 파테 캔 156g",
+    "title": "로우즈 캣 96% 치킨&청어 파테 캔 156g",
     "format": "can",
     "moisture": 78
   },
@@ -1694,9 +1667,83 @@
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/129914",
-    "title": "마이베프 마이슐랭 비프 파테 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327130"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/81787"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194911"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150938"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/129914"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/319208"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150923"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/319207"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/165205"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150939"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/251017"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/205284"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/165206"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/239610"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/194909"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/81825"
   },
   {
     "skipped": true,
@@ -1726,6 +1773,71 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348182"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/342849"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/337792"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/328474"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/328473"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/328472"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/326158"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/319371"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/319370"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/299562"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/254186"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/249020"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/247403"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/362339"
   },
   {
@@ -1737,6 +1849,11 @@
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/264541"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/81826"
   },
   {
     "skipped": true,
@@ -1766,157 +1883,69 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/356148"
+    "url": "https://m.pet-friends.co.kr/product/detail/45286"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/64693"
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/356148",
+    "title": "퓨리나 캣 팬시피스트 85g + 프로플랜 리브클리어 인도어 1.5kg",
+    "format": "can",
+    "moisture": null
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/41856"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/41856",
+    "title": "보레알 캣 칠면조&송어 캔 156g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327120"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/41853",
+    "title": "보레알 캣 치킨&연어&오리 캔 80g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/41853"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/77787",
+    "title": "카니러브 캣 칠면조와 연어 캔 100g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224557"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/109844",
+    "title": "시그니쳐7 캣 가다랑어와 닭고기&연꽃씨 파테 캔 80g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/122008"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/194908",
+    "title": "쉐지애 캣 애프터다크 홀푸드브로스 닭&햄 주식캔 80g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/82156"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350928",
+    "title": "네이처스 캣 생식본능 오리지날 연어 캔 85g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/322151"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/134005",
+    "title": "네이처스 캣 생식본능 오리지날 연어 캔 85g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/77787"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/109847",
+    "title": "시그니쳐7 캣 파테 팩 (7개입)"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/280320"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/305022"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/224554"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109844"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/194908"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109841"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109845"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330679"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/230764"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/182858"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/280317"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/305018"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350928"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164478"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/101854"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330673"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/92292"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/134005"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109847"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166973"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109842"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/166973",
+    "title": "보레알 캣 칠면조&송어 캔 156g"
   },
   {
     "skipped": true,
@@ -1932,39 +1961,158 @@
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/350937",
-    "title": "네이처스 버라이어티 캣 생식본능 연어 민스컵 99g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/205275"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/7314",
-    "title": "네이처스 버라이어티 캣 생식본능 연어 민스컵 99g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/109840"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/150936",
-    "title": "[웰컴딜] 로투스 캣 그레인프리 터키&야채 파테 캔 78g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/350937"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/51375",
-    "title": "로투스 캣 그레인프리 터키&야채 파테 캔 78g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150935"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/51358",
-    "title": "로투스 캣 그레인프리 돼지고기 파테 캔 78g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/106425"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/328807",
-    "title": "오리젠 캣 청크 슈레드 버라이어티 팩 캣 85g*12ea"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/280317"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/30435"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7314"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/106426"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150936"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164698"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164697"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150937"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/150934"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/51375"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/97676"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/51358"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/47710"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/30436"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325994"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3496"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202098"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/328807"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/240845"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325995"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325996"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325997"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/60545"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/240860"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202097"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/202099"
   },
   {
     "skipped": true,
@@ -1974,7 +2122,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/300173"
+    "url": "https://m.pet-friends.co.kr/product/detail/286964"
   },
   {
     "skipped": true,
@@ -1989,7 +2137,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/120721"
+    "url": "https://m.pet-friends.co.kr/product/detail/120720"
   },
   {
     "skipped": true,
@@ -2009,12 +2157,12 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/271809"
+    "url": "https://m.pet-friends.co.kr/product/detail/257916"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/210407"
+    "url": "https://m.pet-friends.co.kr/product/detail/271809"
   },
   {
     "skipped": true,
@@ -2029,180 +2177,109 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/323184"
+    "url": "https://m.pet-friends.co.kr/product/detail/300173"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/271807"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/42960",
+    "title": "이나바 캣 챠오 츄르 제이타크 퐁츄르 닭가슴살 35g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/42960"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/3649",
+    "title": "아이시아 캣 금관 진육수 참치 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/107707"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/192998",
+    "title": "이나바 마구로쥬레 유산균 참치&닭가슴살 65g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3649"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3660"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/104511"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/192998"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/286964"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/191439"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3651"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3658"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/191436"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/191443"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3656"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/104530"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3650"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/104512"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/104514"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/8006"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/210408"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/349244"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3657"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106974"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/257916"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/301760"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/325141"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/209603"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/349681"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/87029"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/120720"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/124767"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/3660",
+    "title": "ANF 캣 참치&게맛살 캔 95g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/273974",
-    "title": "[NEW신상][무료배송] [24개] 한캔뚝딱 프리미엄 고양이캔 영양 특식 묘식가 3종 콤보팩 85g"
+    "title": "한캔뚝딱 프리미엄 고양이캔 영양 특식 묘식가 팩 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/271801",
-    "title": "[NEW신상][무료배송] 수플담 유리너리 참치맛 습식 캔 30g 12개입"
+    "url": "https://m.pet-friends.co.kr/product/detail/3658",
+    "title": "ANF 캣 참치&치킨무스 캔 95g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/94542",
-    "title": "닥터맘마 미니파이 브이캔 6종 30g*10개입"
+    "url": "https://m.pet-friends.co.kr/product/detail/3651",
+    "title": "아이시아 캣 금관 진육수 가다랑어 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/3656",
+    "title": "ANF 캣 참치순살 캔 95g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/3650",
+    "title": "아이시아 캣 금관 진육수 닭가슴살 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/349244",
+    "title": "수플담 미니캔 브레스 오리&황태 습식 캔 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/3657",
+    "title": "ANF 캣 참치무스 캔 95g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/271807",
+    "title": "수플담 미니캔 센서티브 닭&오리 습식 캔 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/349681",
+    "title": "이나바 캣 챠오 츄르컵 참치 60g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/87029",
+    "title": "사조 캣 옵티원 부스트 닭안심&참치 캔 160g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/325141",
+    "title": "캣츠테이스트 밸류밀 대용량 캔 160g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/120721",
+    "title": "베츠솔루션 시그니처캔 H 헤어볼 for cat 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/209603",
+    "title": "집사일기 황금푸딩 닭가슴살 30g"
   },
   {
     "skipped": true,
@@ -2213,22 +2290,8 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/233368",
-    "title": "[무료배송][24개] 펫토리아 한캔뚝딱 프리미엄 영양 간식 닭고기 참치 고양이 캔 콤보 2종 85g (치킨/씨푸드)"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/124892",
-    "title": "ANF 캣 참치&연어 캔 95g"
-  },
-  {
-    "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/7888",
-    "title": "NEKKO 캣 골드 참치&닭고기 인 그레이비 캔 85g",
-    "format": "can",
-    "moisture": 89
+    "url": "https://m.pet-friends.co.kr/product/detail/189056",
+    "title": "이나바 캣 마구로쥬레 유산균 참치 65g"
   },
   {
     "skipped": true,
@@ -2239,102 +2302,150 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/120718",
-    "title": "베츠솔루션 시그니처캔 J 관절 30g*6p"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/271805",
-    "title": "[NEW신상][무료배송] 수플담 미니캔 아이즈 연어&루테인 습식 캔 30g 12개입"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/189056",
-    "title": "이나바 캣 마구로쥬레 유산균 참치 65g"
-  },
-  {
-    "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/7887",
-    "title": "NEKKO 캣 골드 참치&가다랑어포 인 그레이비 캔 85g",
-    "format": "can",
-    "moisture": 89
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/192995",
-    "title": "이나바 마구로쥬레 유산균 해산물 버라이어티 65g*12p"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/349683",
-    "title": "[NEW신상]이나바 캣 챠오 츄르컵 닭가슴살 60g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/189055",
-    "title": "이나바 캣 마구로쥬레 유산균 닭가슴살 65g"
-  },
-  {
-    "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/7886",
-    "title": "NEKKO 캣 골드 참치&연어 인 그레이비 캔 85g",
-    "format": "can",
-    "moisture": 89
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/349682",
-    "title": "[NEW신상]이나바 캣 챠오 츄르컵 가다랑어 60g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/3659",
-    "title": "ANF 캣 참치&새우 캔 95g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/140537",
-    "title": "이나바 캣 금빛육수 컵 닭가슴살&참치&가다랑어 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/331509",
-    "title": "[신상특가]워너밀 캣 사각캔 100g 4종 [모음]"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/120719",
-    "title": "베츠솔루션 시그니처캔 E 눈/눈물 30g*6p"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/140534",
-    "title": "이나바 캣 금빛육수 컵 참치&가츠오부시 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327595",
-    "title": "네츄럴코어 캣 참치&게맛살 캔 95g",
-    "brand": "네츄럴코어"
+    "url": "https://m.pet-friends.co.kr/product/detail/271801",
+    "title": "수플담 유리너리 참치맛 습식 캔 30g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/140536"
+    "url": "https://m.pet-friends.co.kr/product/detail/7888"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/120718",
+    "title": "베츠솔루션 시그니처캔 J 관절 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/124892",
+    "title": "ANF 캣 참치&연어 캔 95g"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3540"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/124767"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/148895"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/233366"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/233368"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/94542"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/189055"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/192995"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/62680"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7887"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/349683"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/160610"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/29543"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/58780"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/349682"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/331509"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7886"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3659"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/8007"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/137571"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/160621"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327595"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/198190"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/104515"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/140525"
   },
   {
     "skipped": true,
@@ -2344,12 +2455,22 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344525"
+    "url": "https://m.pet-friends.co.kr/product/detail/160608"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3547"
+    "url": "https://m.pet-friends.co.kr/product/detail/140537"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/124766"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/140534"
   },
   {
     "skipped": true,
@@ -2359,37 +2480,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327580"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/46197"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/325142"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/123557"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/47985"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360689"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/51019"
   },
   {
     "skipped": true,
@@ -2399,17 +2490,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198189"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/140523"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348976"
+    "url": "https://m.pet-friends.co.kr/product/detail/3547"
   },
   {
     "skipped": true,
@@ -2424,102 +2505,22 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/340206"
+    "url": "https://m.pet-friends.co.kr/product/detail/120719"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/199420"
+    "url": "https://m.pet-friends.co.kr/product/detail/327580"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/120716"
+    "url": "https://m.pet-friends.co.kr/product/detail/94545"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7889"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/58779"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106980"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/158445"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/160614"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106968"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/55175"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/199878"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/123260"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/198191"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/51017"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106973"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109611"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/318945"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/148897"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/140535"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/109610"
+    "url": "https://m.pet-friends.co.kr/product/detail/325142"
   },
   {
     "skipped": true,
@@ -2529,27 +2530,64 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/46198"
+    "url": "https://m.pet-friends.co.kr/product/detail/140536"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/58778"
+    "url": "https://m.pet-friends.co.kr/product/detail/191436"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344524"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/344525",
+    "title": "아이시아 캣 금관 야이즈 참치와 닭가슴살 가다랑어포 육수타입 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/106982"
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/47985",
+    "title": "굿프랜드 캣 도모다찌 캔 80g",
+    "format": "can",
+    "moisture": null
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348978"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/120716",
+    "title": "베츠솔루션 시그니처캔 M 멀티비타민 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/7889",
+    "title": "NEKKO 캣 골드 참치&닭고기&새우 가리비 인 그레이비 캔 85g",
+    "format": "can",
+    "moisture": 89
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348976",
+    "title": "이나바 캣 챠오 츄르 제이타크 퐁츄르 참치 35g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/140535",
+    "title": "이나바 캣 금빛육수 컵 참치&가리비 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/109611",
+    "title": "아이시아 캣 금관 농후 참치&치어 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/109610",
+    "title": "아이시아 캣 금관 농후 참치&닭가슴살 캔 70g"
   },
   {
     "skipped": true,
@@ -2560,147 +2598,39 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/140532",
-    "title": "이나바 캣 금빛육수 컵 참치&가다랑어&닭가슴살 11세 이상 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/94431",
-    "title": "닥터맘마 미니파이 멀티팩(미니파이 10종) 캔 30g*10개"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/140533",
-    "title": "이나바 캣 금빛육수 컵 참치&가자미 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/324198",
-    "title": "[브랜드전]어플라우즈 캣 참치 필레 인 브로스 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/233307",
     "title": "나인케어 캣 무스케이크 치킨&참치 80g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348977",
-    "title": "이나바 캣 챠오 츄르 제이타크 퐁츄르 닭가슴살 35g*2개입"
-  },
-  {
-    "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/51014",
-    "title": "골드런치 캣 캔 6종 80g*24개입",
-    "format": "can",
-    "moisture": null
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/324202",
-    "title": "[브랜드전]어플라우즈 캣 닭가슴살과 치즈 인 브로스 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/113376",
-    "title": "아이시아 캣 먀우먀우 토비키리 치어가 들어간 참치 캔 60g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/324204",
-    "title": "[브랜드전]어플라우즈 캣 고등어와 정어리 인 브로스 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/3548",
-    "title": "런치셰프 캣 흰살참치&연어 캔 80g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/344523",
-    "title": "아이시아 캣 금관 야이즈 참치와 닭가슴살 게맛살 육수타입 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/113379",
-    "title": "아이시아 캣 먀우먀우 토비키리 닭가슴살 캔 60g"
+    "url": "https://m.pet-friends.co.kr/product/detail/324198",
+    "title": "어플라우즈 캣 참치 필레 인 브로스 캔 70g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/209605"
+    "url": "https://m.pet-friends.co.kr/product/detail/123559"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/140538"
+    "url": "https://m.pet-friends.co.kr/product/detail/51018"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/140526"
+    "url": "https://m.pet-friends.co.kr/product/detail/198191"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/214147"
+    "url": "https://m.pet-friends.co.kr/product/detail/318945"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/210406"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/137567"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347216"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324199"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/323185"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324242"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348923"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347110"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/47979"
+    "url": "https://m.pet-friends.co.kr/product/detail/140532"
   },
   {
     "skipped": true,
@@ -2710,7 +2640,107 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/158446"
+    "url": "https://m.pet-friends.co.kr/product/detail/348977"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/148896"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360792"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/94431"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/138793"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/344524"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/29542"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348939"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/55174"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360793"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/140533"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/51015"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348978"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/214147"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/347110"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3548"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/58748"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324204"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/51014"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/113379"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/263600"
   },
   {
     "skipped": true,
@@ -2720,42 +2750,37 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/306164"
+    "url": "https://m.pet-friends.co.kr/product/detail/94543"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/191442"
+    "url": "https://m.pet-friends.co.kr/product/detail/214985"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/55184"
+    "url": "https://m.pet-friends.co.kr/product/detail/137567"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360790"
+    "url": "https://m.pet-friends.co.kr/product/detail/160619"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344522"
+    "url": "https://m.pet-friends.co.kr/product/detail/324199"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327576"
+    "url": "https://m.pet-friends.co.kr/product/detail/113376"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/355755"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344526"
+    "url": "https://m.pet-friends.co.kr/product/detail/344523"
   },
   {
     "skipped": true,
@@ -2765,57 +2790,22 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/206987"
+    "url": "https://m.pet-friends.co.kr/product/detail/140538"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/296531"
+    "url": "https://m.pet-friends.co.kr/product/detail/191439"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360794"
+    "url": "https://m.pet-friends.co.kr/product/detail/306164"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/269737"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348947"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3709"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348889"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348975"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/344520"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350559"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/331129"
+    "url": "https://m.pet-friends.co.kr/product/detail/140526"
   },
   {
     "skipped": true,
@@ -2825,55 +2815,17 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166275"
+    "url": "https://m.pet-friends.co.kr/product/detail/253026"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/301761"
+    "url": "https://m.pet-friends.co.kr/product/detail/46193"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347111"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/171156"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/7885"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327578"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/233308"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/355756",
-    "title": "[NEW신상]오아지 캣 네츄럴레인지 치킨&치즈 캔 70g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/113378",
-    "title": "아이시아 캣 먀우먀우 토비키리 가다랑어포가 들어간 참치 캔 60g"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348925",
-    "title": "이나바 캣 금빛육수 컵 참치&가다랑어&닭가슴살 11세 이상 70g"
+    "url": "https://m.pet-friends.co.kr/product/detail/324202"
   },
   {
     "skipped": true,
@@ -2884,75 +2836,174 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/233309",
-    "title": "나인케어 캣 무스케이크 치킨&단호박 80g"
+    "url": "https://m.pet-friends.co.kr/product/detail/209605",
+    "title": "집사일기 황금푸딩 참치&고등어 30g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348891",
-    "title": "이나바 캣 마구로쥬레 유산균 참치 65g"
+    "url": "https://m.pet-friends.co.kr/product/detail/324242",
+    "title": "뉴트리프롬 캣 믹스 습식 미니캔 30g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/171160",
-    "title": "페슬러 묘설렘 내추럴 캔 닭가슴살&연어 80g"
+    "url": "https://m.pet-friends.co.kr/product/detail/348923",
+    "title": "이나바 캣 금빛육수 컵 참치&가츠오부시 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/344521",
-    "title": "아이시아 캣 금관 야이즈 참치와 닭가슴살 가다랑어포 젤리타입 캔 70g"
+    "url": "https://m.pet-friends.co.kr/product/detail/296531",
+    "title": "수플담 미니캔 아이즈 연어&루테인 습식 캔 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/3709",
+    "title": "뉴트리나 캣 비스트로 흰살참치&닭안심 캔 160g",
+    "format": "can",
+    "moisture": null
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/311140",
-    "title": "어플라우즈 캣 시니어 참치 필레와 정어리 인 젤리 캔 70g"
+    "url": "https://m.pet-friends.co.kr/product/detail/171156",
+    "title": "페슬러 묘설렘 내추럴 캔 닭가슴살&참치 80g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/171154",
-    "title": "페슬러 묘설렘 내추럴 캔 닭가슴살 80g"
+    "url": "https://m.pet-friends.co.kr/product/detail/344522",
+    "title": "아이시아 캣 금관 야이즈 참치와 닭가슴살 가리비관자 젤리타입 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/234573",
-    "title": "사조 캣 옵티원 연어&아마씨 캔 90g"
+    "url": "https://m.pet-friends.co.kr/product/detail/233308",
+    "title": "나인케어 캣 무스케이크 치킨&연어 80g"
   },
   {
     "skipped": true,
     "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327577",
-    "title": "네츄럴코어 캣 치킨 캔 95g",
+    "url": "https://m.pet-friends.co.kr/product/detail/327576",
+    "title": "네츄럴코어 캣 참치&연어 캔 95g",
     "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/113378",
+    "title": "아이시아 캣 먀우먀우 토비키리 가다랑어포가 들어간 참치 캔 60g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348889",
+    "title": "이나바 마구로쥬레 유산균 참치&닭가슴살 65g"
   },
   {
     "skipped": true,
     "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327582",
-    "title": "네츄럴코어 캣 네코야 참치&멸치 캔 80g",
+    "url": "https://m.pet-friends.co.kr/product/detail/327578",
+    "title": "네츄럴코어 캣 참치 캔 95g",
     "brand": "네츄럴코어"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/354162",
-    "title": "[무료배송] 라이펫 딜라잇 low protein 신장관리 습식캔 30g*8p"
+    "url": "https://m.pet-friends.co.kr/product/detail/344526",
+    "title": "아이시아 캣 금관 야이즈 참치와 닭가슴살 가리비관자 육수타입 캔 70g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348920",
-    "title": "이나바 캣 금빛육수 컵 닭가슴살&참치&가다랑어 70g"
+    "url": "https://m.pet-friends.co.kr/product/detail/331129",
+    "title": "뉴트리플랜 디쉬"
+  },
+  {
+    "skipped": true,
+    "reason": "지원 습식 형태 아님",
+    "url": "https://m.pet-friends.co.kr/product/detail/7885",
+    "title": "NEKKO 캣 골드 닭고기&치즈 인 그레이비 캔 85g",
+    "format": "can",
+    "moisture": 89
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/271805",
+    "title": "수플담 미니캔 아이즈 연어&루테인 습식 캔 30g"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348926"
+    "url": "https://m.pet-friends.co.kr/product/detail/55184"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166275"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348975"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/354160"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/355756"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/47984"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/363192"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/171160"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/344521"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/214146"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/299929"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348946"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166277"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/171154"
   },
   {
     "skipped": true,
@@ -2962,7 +3013,32 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348928"
+    "url": "https://m.pet-friends.co.kr/product/detail/214149"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/106969"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/347216"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/191442"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327579"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/350559"
   },
   {
     "skipped": true,
@@ -2972,12 +3048,102 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347215"
+    "url": "https://m.pet-friends.co.kr/product/detail/234573"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/299930"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360690"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348883"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/344520"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/347064"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166284"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/233309"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/51016"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327577"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/47983"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/347217"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/354162"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/311140"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348925"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348884"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348934"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/340207"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348928"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348941"
   },
   {
     "skipped": true,
@@ -2991,195 +3157,78 @@
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/215667"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327573"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348941"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324245"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/46194"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/339461"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348884"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166284"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327579"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/184457"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166279"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347217"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324200"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360694"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/318572"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348915"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/206986"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327575"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324504"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311139"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3689"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348892"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348927"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3686"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/123259"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/354160"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/124894"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/214149"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/300849"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/305184"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327586"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3691"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348918"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311143"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311036"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/125395"
-  },
-  {
-    "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/360107",
-    "title": "[체험단] 한캔뚝딱 고등어&오리 85g"
+    "url": "https://m.pet-friends.co.kr/product/detail/3691",
+    "title": "캣토리 참치&연어 캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327573",
+    "title": "네츄럴코어 캣 참치&호박 시니어 캔 95g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327582",
+    "title": "네츄럴코어 캣 네코야 참치&멸치 캔 80g",
+    "brand": "네츄럴코어"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/348890",
-    "title": "이나바 마구로쥬레 유산균 해산물 버라이어티 65g*12p"
+    "title": "이나바 마구로쥬레 유산균 해산물 65g"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327575",
+    "title": "네츄럴코어 캣 참치&비프 시니어 캔 95g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348920",
+    "title": "이나바 캣 금빛육수 컵 닭가슴살&참치&가다랑어 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348891",
+    "title": "이나바 캣 마구로쥬레 유산균 참치 65g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348892",
+    "title": "이나바 캣 마구로쥬레 유산균 닭가슴살 65g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/124894",
+    "title": "뉴트리플랜 캣 디쉬 흰살참치&닭가슴살 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348918",
+    "title": "이나바 캣 금빛육수 컵 참치 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/311143",
+    "title": "어플라우즈 캣 키튼 치킨 인 젤리 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/125395",
+    "title": "베러펫 캣냠 습식캔 황태 30g"
   },
   {
     "skipped": true,
@@ -3190,76 +3239,178 @@
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348922",
-    "title": "이나바 캣 금빛육수 컵 참치&가리비 70g"
+    "url": "https://m.pet-friends.co.kr/product/detail/324200",
+    "title": "어플라우즈 캣 시니어 참치 필레와 정어리 인 젤리 캔 70g"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/354158",
-    "title": "[무료배송] 라이펫 딜라잇 low carb 종양/당뇨관리 습식캔 30g*8p"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348916"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/318931",
-    "title": "어플라우즈 캔 70g 8종 [모음]"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/233522"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/359364",
-    "title": "[체험단] 오아지 캣 네츄럴레인지 치킨&치즈 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348954"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/3687",
-    "title": "캣토리 참치&게살 캔 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/311139"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/125394",
-    "title": "베러펫 캣냠 습식캔 닭가슴살 30g*4ea"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348926"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/124893",
-    "title": "뉴트리플랜 캣 디쉬 흰살참치 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3686"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/349242",
-    "title": "[무료배송] 수플담 미니캔 카밍 황태&가자미 캔 간식 30g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348922"
   },
   {
     "skipped": true,
-    "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327587",
-    "title": "네츄럴코어 캣 네코야 참치&치킨 캔 80g",
-    "brand": "네츄럴코어"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/106970"
   },
   {
     "skipped": true,
-    "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327585",
-    "title": "네츄럴코어 캣 네코야 참치&게살 캔 80g",
-    "brand": "네츄럴코어"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/311142"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/166276",
-    "title": "뉴트리플랜 캣 통영캔 참치&달고기 90g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215660"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/327630",
-    "title": "벨로타 고양이 간식캔 6종 [모음]"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348917"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324197"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/349242"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/318573"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/359363"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/354158"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/318931"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/359364"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/3687"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/346490"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360107"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/125394"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330750"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360123"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/323186"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/340204"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/124893"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/335758"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/335743"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327587"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166276"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/350558"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/339463"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327630"
   },
   {
     "skipped": true,
@@ -3269,12 +3420,12 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350560"
+    "url": "https://m.pet-friends.co.kr/product/detail/349063"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/340207"
+    "url": "https://m.pet-friends.co.kr/product/detail/350560"
   },
   {
     "skipped": true,
@@ -3284,12 +3435,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330714"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348936"
+    "url": "https://m.pet-friends.co.kr/product/detail/335740"
   },
   {
     "skipped": true,
@@ -3309,184 +3455,140 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/215669"
+    "url": "https://m.pet-friends.co.kr/product/detail/324244"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348924"
+    "url": "https://m.pet-friends.co.kr/product/detail/348936"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348934"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348924",
+    "title": "이나바 캣 금빛육수 컵 참치&가자미 70g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348943"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/300849",
+    "title": "3651 캣 와구 레드라벨 습식 참치캔"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/323187"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/113380",
+    "title": "아이시아 캣 먀우먀우 토비키리 치어가 들어간 닭가슴살 캔 60g"
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311040"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/113380"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348921"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/318574"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324243"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/319828"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330763"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348917"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/347064"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324197"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/343072"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311142"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/3688"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/348919"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311138"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/269745"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/322449"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/256860"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360106"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324503"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/339549"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/349060"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311037"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/214988"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327574"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/274819"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311137"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350551"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/335741"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/341116"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348921",
+    "title": "이나바 캣 금빛육수 컵 참치&치어 70g"
   },
   {
     "skipped": true,
     "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327583",
-    "title": "네츄럴코어 캣 네코야 참치&새우 캔 80g",
+    "url": "https://m.pet-friends.co.kr/product/detail/327586",
+    "title": "네츄럴코어 캣 네코야 참치&연어 캔 80g",
     "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/319828",
+    "title": "내추럴코드 16 고양이 습식 캔 가다랑어 슬라이스 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/348919",
+    "title": "이나바 캣 금빛육수 컵 가다랑어 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/311138",
+    "title": "어플라우즈 캣 닭가슴살과 치즈 인 브로스 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/269745",
+    "title": "뉴트리프롬 캣 믹스 습식 미니캔 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/360103",
+    "title": "한캔뚝딱 역돔&오리 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/322449",
+    "title": "캣츠테이스트 밸류밀 대용량 캔 160g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/256860",
+    "title": "뉴트리플랜 캣 디쉬 흰살참치&연어 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/360106",
+    "title": "한캔뚝딱 참치&닭고기 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/234574",
+    "title": "사조 캣 옵티원 당근&야채 캔 90g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350551",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&참치 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/274819",
+    "title": "한캔뚝딱 프리미엄 영양특식 고양이캔 산해진미 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327574",
+    "title": "네츄럴코어 캣 참치&치킨간 시니어 캔 95g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/311137",
+    "title": "어플라우즈 캣 닭가슴살 인 브로스 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/341116",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&치즈 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "제외 브랜드",
+    "url": "https://m.pet-friends.co.kr/product/detail/327585",
+    "title": "네츄럴코어 캣 네코야 참치&게살 캔 80g",
+    "brand": "네츄럴코어"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327583"
   },
   {
     "skipped": true,
@@ -3497,69 +3599,168 @@
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/287985",
-    "title": "[무료배송] 캣퓨어 미니캔 30g*6ea*8개입 4종 (닭가슴살/참치/대구살/게살)"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215669"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/124895",
-    "title": "뉴트리플랜 캣 디쉬 흰살참치&연어 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/287985"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/360104",
-    "title": "[체험단] 한캔뚝딱 정어리&닭고기85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/350563"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164277",
-    "title": "[웰컴딜] ANF 캣 참치&치킨무스 캔 95g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/349061"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164278",
-    "title": "[웰컴딜] ANF 캣 참치무스 캔 95g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360693"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/167205",
-    "title": "[웰컴딜] 베츠솔루션 시그니처캔 J 관절 30g*6p"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/214148"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/144890",
-    "title": "[웰컴딜] 아이시아 캣 금관 진육수 가다랑어 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324534"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/144892",
-    "title": "[웰컴딜] 아이시아 캣 금관 진육수 참치 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324536"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164280",
-    "title": "[웰컴딜] ANF 캣 참치순살 캔 95g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/124895"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/311141",
-    "title": "어플라우즈 캣 오션피쉬 인 브로스 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360104"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164270",
-    "title": "[웰컴딜] ANF 캣 참치&게맛살 캔 95g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/214987"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/214986"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/311039"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164709"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/144890"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/254164"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/324533"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/167192"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164277"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360691"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164278"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/144891"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/167205"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/167231"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/144892"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164627"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/346491"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164280"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/311141"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164718"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164270"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164719"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164708"
   },
   {
     "skipped": true,
@@ -3569,7 +3770,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360103"
+    "url": "https://m.pet-friends.co.kr/product/detail/360692"
   },
   {
     "skipped": true,
@@ -3579,7 +3780,7 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/144891"
+    "url": "https://m.pet-friends.co.kr/product/detail/343070"
   },
   {
     "skipped": true,
@@ -3599,11 +3800,6 @@
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/343070"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/325359"
   },
   {
@@ -3618,248 +3814,280 @@
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/341120"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164713"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164711"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/361847"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164271"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164276"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/167214"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/167192"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/167231"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/247524"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164710"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/360690"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/340205"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330711"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/324537"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164714"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/311136"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164628"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/214984"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/210411"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/327633"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/166283"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330771"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330770"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/191447"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164701"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/339462"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/341122"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/343071"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/125396"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/343073"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/164712"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/350553"
-  },
-  {
-    "skipped": true,
-    "reason": "제외 브랜드",
-    "url": "https://m.pet-friends.co.kr/product/detail/327581",
-    "title": "네츄럴코어 캣 네코야 참치 캔 혼합 6종 80g*24개입",
-    "brand": "네츄럴코어"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/341120",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&연어 80g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/247520",
-    "title": "[무료배송] [12개] 사조 캣 캣티거 와일드 참치&치킨 캔 160g"
+    "url": "https://m.pet-friends.co.kr/product/detail/361847",
+    "title": "오아지 캣 네츄럴레인지 치킨&치즈 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/164271",
+    "title": "ANF 캣 참치&새우 캔 95g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/164276",
+    "title": "ANF 캣 참치&연어 캔 95g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/167214",
+    "title": "베츠솔루션 시그니처캔 E 눈/눈물 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/247524",
+    "title": "사조 캣 캣티거 와일드 참치 캔 160g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/341122",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&참치 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/311136",
+    "title": "어플라우즈 캣 고등어와 정어리 인 브로스 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/164628",
+    "title": "아이시아 캣 금관 농후 참치&치어 캔 70g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/327633",
+    "title": "벨로타 고양이 골드 토핑 간식캔"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/191447",
+    "title": "데일리딜라이트 캣 참치&치킨&호박 퓨어 캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/164701",
+    "title": "뉴트리플랜 캣 디쉬 흰살참치 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/125396",
+    "title": "베러펫 캣냠 습식캔 연어 30g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/350553",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&치즈 80g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/253832",
-    "title": "[무료배송] [24개] 데이스포 캣 필라인 캔 흰살참치와 치킨 그레이비 80g"
+    "title": "데이스포 캣 필라인 캔 흰살참치와 치킨 그레이비 80g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/288619",
-    "title": "[무료배송] 펫파운드 미니캔 50g*24ea 5종 [모음]"
-  },
-  {
-    "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/234574",
-    "title": "사조 캣 옵티원 당근&야채 캔 90g"
+    "title": "펫파운드 미니캔 50g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/164700",
-    "title": "[웰컴딜] 뉴트리플랜 캣 디쉬 흰살참치&닭가슴살 85g"
+    "title": "뉴트리플랜 캣 디쉬 흰살참치&닭가슴살 85g"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164699",
-    "title": "[웰컴딜] 뉴트리플랜 캣 디쉬 흰살참치&연어 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164699"
   },
   {
     "skipped": true,
-    "reason": "습식 캔 아님",
-    "url": "https://m.pet-friends.co.kr/product/detail/7884",
-    "title": "NEKKO 캣 골드 닭가슴살&야채 인 그레이비 캔 85g",
-    "format": "can",
-    "moisture": 89
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215661"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/135550",
-    "title": "[무료배송][24개] 아이엠캣 오리지날 콤보 캔 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330769"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/352195",
-    "title": "[무료배송] 수플담 이뮨 민물장어맛 습식 캔 12개입"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330768"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/254067",
-    "title": "[무료배송] [24개] 데이스포 캣 필라인 캔 흰살참치와 치킨 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330757"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/288627",
-    "title": "[무료배송] 도그퓨어 영양닭죽 85g*10개입 2종 (황태죽/전복죽)"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330756"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215666"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215663"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/7884"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330753"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330752"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330759"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330758"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/135550"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/352195"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/254067"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/247520"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/368900"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/368899"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/353808"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330713"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330712"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325362"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/325361"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/363670"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/363193"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/363095"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330777"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330776"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/166282"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330764"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/288627"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/215665"
   },
   {
     "skipped": true,
     "reason": "상세 데이터 없음",
     "url": "https://m.pet-friends.co.kr/product/detail/330755"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330754"
   },
   {
     "skipped": true,
@@ -3908,179 +4136,119 @@
   },
   {
     "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/330772"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/319826"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/255080"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/319834"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/254210"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/265438"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/253828"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/341118"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/253830"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/294182"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/254163"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/254156"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/254154"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/253834"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/294180"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/258373"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135551"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/288744"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/258379"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135555"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/258377"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/258375"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/258371"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/294184"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/159428"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/287927"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/254162"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135548"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135546"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135554"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135553"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135552"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135549"
-  },
-  {
-    "skipped": true,
-    "reason": "상세 데이터 없음",
-    "url": "https://m.pet-friends.co.kr/product/detail/135547"
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/319826",
+    "title": "내추럴코드 13 고양이 습식 캔 참치와 치즈 85g"
   },
   {
     "skipped": true,
     "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/62680",
-    "title": "이나바 캣 챠오 제이타크 연어&참치&닭가슴살 80g"
+    "url": "https://m.pet-friends.co.kr/product/detail/255080",
+    "title": "데이스포 캣 필라인 캔 믹스 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/319834",
+    "title": "내추럴코드 28 고양이 습식 캔 참치와 해산물믹스 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/254210",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 멸치 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/265438",
+    "title": "내추럴코드 08 고양이 습식 캔 참치 슬라이스 85g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/253828",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 게살 그레이비 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/341118",
+    "title": "데이스포 캣 필라인 수프 캔 치킨&새우 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/253830",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 멸치 그레이비 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/254156",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 새우 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/254154",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 게살 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/253834",
+    "title": "데이스포 캣 필라인 캔 흰살참치와 새우 그레이비 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/258373",
+    "title": "벨버드 캣 냥코밥상 캔 참치치킨 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/258379",
+    "title": "벨버드 캣 냥코밥상 캔 믹스 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/135555",
+    "title": "아이엠캣 그레이비소스 콤보 캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/258377",
+    "title": "벨버드 캣 냥코밥상 캔 참치멸치 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/258375",
+    "title": "벨버드 캣 냥코밥상 캔 참치새우 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/258371",
+    "title": "벨버드 캣 냥코밥상 캔 참치게맛살 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "맛 정보 없는 일반 상품명",
+    "url": "https://m.pet-friends.co.kr/product/detail/159428",
+    "title": "저냥저냥 간식캔 80g",
+    "brand": "저냥저냥",
+    "product": "간식캔 80g"
+  },
+  {
+    "skipped": true,
+    "reason": "필수 성분 누락",
+    "url": "https://m.pet-friends.co.kr/product/detail/287927",
+    "title": "펫파운드 어썸캔 100g"
   },
   {
     "skipped": true,
@@ -4104,139 +4272,172 @@
     "skipped": true,
     "reason": "필수 성분 누락",
     "url": "https://m.pet-friends.co.kr/product/detail/271803",
-    "title": "[NEW신상][무료배송] 수플담 미니캔 헤어볼 닭가슴살&키토산 습식 캔 30g 12개입"
+    "title": "수플담 미니캔 헤어볼 닭가슴살&키토산 습식 캔 30g"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/109612",
-    "title": "아이시아 캣 금관 농후 참치 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/109612"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348954",
-    "title": "이나바 캣 챠오 제이타크 연어&참치&닭가슴살 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348956"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348956",
-    "title": "이나바 캣 챠오 제이타크 혼마구로&참치&닭가슴살 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/327581"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/348955",
-    "title": "이나바 캣 챠오 제이타크 가리비&참치&닭가슴살 80g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348955"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/360105",
-    "title": "[체험단] 한캔뚝딱 연어,닭고기&흰살생선 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348945"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/113372",
-    "title": "아이시아 캣 먀우먀우 토비키리 참치 캔 60g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/104513"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/164629",
-    "title": "[웰컴딜] 아이시아 캣 금관 농후 참치 캔 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360105"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265450",
-    "title": "[무료배송] [24개] 내추럴코드 시니어 02 고양이 습식 캔 튜나 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/330751"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265442",
-    "title": "[무료배송] [24개] 내추럴코드 10 고양이 습식 캔 참치와 흰살생선 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360108"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265434",
-    "title": "[무료배송] [24개] 내추럴코드 03 고양이 습식 캔 닭고기와 연어 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/113372"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/247516",
-    "title": "[무료배송] [12개] 사조 캣 캣티거 와일드 참치&연어 캔 160g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/191438"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/253322",
-    "title": "[무료배송] 사조 캣 캣티거 와일드 캔 3종"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/306166"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/279380",
-    "title": "[NEW신상][무료배송] [12개] 내추럴코드 어덜트 6종 이탈리아 고양이 캔 습식사료 어덜트 테이스팅팩"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/106979"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265440",
-    "title": "[무료배송] [24개] 내추럴코드 09 고양이 습식 캔 참치와 새우 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/348937"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265448",
-    "title": "[무료배송] [24개] 내추럴코드 스테럴 05 고양이 습식 캔 참치와 농어 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/124761"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265444",
-    "title": "[무료배송] [24개] 내추럴코드 라이트 01 고양이 습식 캔 참치와 베리 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/164629"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265436",
-    "title": "[무료배송] [24개] 내추럴코드 07 고양이 습식 캔 닭고기와 소고기 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265450"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265430",
-    "title": "[무료배송] [24개] 내추럴코드 01 고양이 습식 캔 닭고기필렛 85g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265442"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/279388",
-    "title": "[NEW신상][무료배송] [11개] 내추럴코드 모든 맛 11종 이탈리아 고양이 캔 습식사료 올 테이스팅팩"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265434"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/265446",
-    "title": "[무료배송] [24개] 내추럴코드 라이트 02 고양이 습식 캔 참치, 도미와 사과 70g"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/247516"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/312350",
-    "title": "[무료배송] [6개] 내추럴코드 어덜트 6종 이탈리아 고양이 캔 습식사료 혼합콤보 기프트박스"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/253322"
   },
   {
     "skipped": true,
-    "reason": "필수 성분 누락",
-    "url": "https://m.pet-friends.co.kr/product/detail/312348",
-    "title": "[무료배송] [6개] 내추럴코드 어덜트 6종 이탈리아 고양이 캔 습식사료 어덜트 기프트박스"
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/279380"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265440"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265448"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265444"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265436"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265430"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/279388"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/265446"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/360122"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/82168"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/312350"
+  },
+  {
+    "skipped": true,
+    "reason": "상세 데이터 없음",
+    "url": "https://m.pet-friends.co.kr/product/detail/312348"
   },
   {
     "skipped": true,

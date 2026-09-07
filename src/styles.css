@@ -226,11 +226,9 @@ h1 {
   background: white;
 }
 
-.foodThumb.empty,
-.foodThumb.isMissing {
-  background:
-    linear-gradient(135deg, transparent 48%, #d8e0ee 49%, #d8e0ee 51%, transparent 52%),
-    #f3f6fb;
+.foodThumb.fallback {
+  object-fit: cover;
+  object-position: 50% 34%;
 }
 
 .foodThumb.isMissing {
@@ -595,6 +593,27 @@ input[type="range"] {
 
 .tableRanges .field {
   margin-top: 0;
+}
+
+.rangeReset {
+  justify-self: end;
+  grid-column: 1 / -1;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.rangeReset:hover,
+.rangeReset:focus-visible {
+  border-color: #b8c6df;
+  background: var(--blue-soft);
+  outline: 0;
 }
 
 .tableFilters {
