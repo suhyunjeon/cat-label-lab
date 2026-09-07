@@ -28,6 +28,11 @@ const numberAfter = (text, label) => {
   return match ? Number(match[1]) : null;
 };
 
+const caloriesAfter = (text) => {
+  const match = String(text || "").match(/(?:대사에너지|열량|칼로리|calorie)[^\d]{0,30}(\d+(?:\.\d+)?)\s*kcal/i);
+  return match ? Number(match[1]) : null;
+};
+
 const valueAfterHeading = (html, heading) => {
   const pattern = new RegExp(`<h5[^>]*>\\s*${heading}\\s*<\\/h5>\\s*<p[^>]*>([\\s\\S]*?)<\\/p>`, "i");
   const match = html.match(pattern);
@@ -185,6 +190,7 @@ async function parseProduct(url) {
     calcium: numberAfter(composition, "칼슘"),
     phosphorus: numberAfter(composition, "인"),
     moisture: numberAfter(composition, "수분"),
+    calories: caloriesAfter(localText) ?? caloriesAfter(composition),
     thumbnailUrl,
     sourceUrl: url
   };

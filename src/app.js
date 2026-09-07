@@ -40,6 +40,34 @@ const state = {
 const fmt = (value, digits = 2) => (Number.isFinite(value) ? Number(value).toFixed(digits).replace(/\.?0+$/, "") : "-");
 const fmtLabel = (value, digits = 1) => (Number.isFinite(value) ? `${fmt(value, digits)}%` : "미공개");
 
+const packageGrams = (food) => {
+  if (Number.isFinite(food.weightGrams)) return food.weightGrams;
+  const match = `${food.product} ${food.line}`.match(/(\d+(?:\.\d+)?)\s*g\b/i);
+  return match ? Number(match[1]) : null;
+};
+
+const caloriesPer100g = (food) => {
+  const explicit = food.kcalPer100g ?? food.caloriesPer100g ?? food.calorieDensity ?? food.energyKcalPer100g;
+  if (Number.isFinite(explicit)) return explicit;
+  const totalCalories = food.calories ?? food.kcal ?? food.energyKcal;
+  const grams = packageGrams(food);
+  if (!Number.isFinite(totalCalories) || !Number.isFinite(grams) || grams <= 0) return null;
+  return (totalCalories / grams) * 100;
+};
+
+const fmtCalories = (food) => {
+  const value = caloriesPer100g(food);
+  return Number.isFinite(value) ? `${fmt(value, 0)} kcal/100g` : "미공개";
+};
+
+const fmtCaloriesBasis = (food) => {
+  const totalCalories = food.calories ?? food.kcal ?? food.energyKcal;
+  const grams = packageGrams(food);
+  if (Number.isFinite(totalCalories) && Number.isFinite(grams)) return `${fmt(totalCalories, 0)} kcal/${fmt(grams, 0)}g`;
+  if (Number.isFinite(totalCalories)) return `${fmt(totalCalories, 0)} kcal`;
+  return "열량 미공개";
+};
+
 const dryMatter = (food, key) => {
   if (!Number.isFinite(food[key]) || !Number.isFinite(food.moisture) || food.moisture >= 100) return null;
   return (food[key] / (100 - food.moisture)) * 100;
@@ -172,6 +200,21 @@ const nutrientDetail = (food, key, label, digits = 1, toneClass = "") => {
   `;
 };
 
+const calorieCell = (food) => `
+  <div class="nutrientCell">
+    <span class="badge">${fmtCalories(food)}</span>
+    <small>${fmtCaloriesBasis(food)}</small>
+  </div>
+`;
+
+const calorieDetail = (food) => `
+  <div class="detailMetric">
+    <span>단위칼로리</span>
+    <strong>${fmtCalories(food)}</strong>
+    <small>${fmtCaloriesBasis(food)}</small>
+  </div>
+`;
+
 const insightList = (food) => {
   const proteinDm = dryMatter(food, "protein");
   const fatDm = dryMatter(food, "fat");
@@ -215,6 +258,7 @@ const detailPanelMarkup = (food) => {
       ${nutrientDetail(food, "protein", "조단백", 1)}
       ${nutrientDetail(food, "fat", "조지방", 1)}
       ${nutrientDetail(food, "sodium", "나트륨", 3)}
+      ${calorieDetail(food)}
       <div class="detailMetric">
         <span>수분</span>
         <strong>${fmt(food.moisture, 1)}%</strong>
@@ -420,6 +464,7 @@ app.innerHTML = `
                 <th>조단백</th>
                 <th>조지방</th>
                 <th>나트륨</th>
+                <th>단위칼로리</th>
                 <th>수분</th>
                 <th>추천점수</th>
                 <th>출처</th>
@@ -482,6 +527,7 @@ const renderRows = () => {
           <td>${nutrientCell(food, "protein", 1)}</td>
           <td>${nutrientCell(food, "fat", 1)}</td>
           <td>${nutrientCell(food, "sodium", 3)}</td>
+          <td>${calorieCell(food)}</td>
           <td>${fmt(food.moisture, 1)}%</td>
           <td>${food.score}</td>
           <td><a href="${food.sourceUrl}" target="_blank" rel="noreferrer" aria-label="${foodId(food)} 출처 열기">${icon.external}</a></td>
