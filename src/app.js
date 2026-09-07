@@ -17,7 +17,8 @@ const dataStats = {
   lowPhos: dataset.foods.filter((food) => food.phosphorus <= 0.1).length,
   maxPhos: Math.ceil(Math.max(...dataset.foods.map((food) => food.phosphorus)) * 100) / 100,
   minProtein: Math.floor(Math.min(...dataset.foods.map((food) => food.protein)) * 10) / 10,
-  maxProtein: Math.ceil(Math.max(...dataset.foods.map((food) => food.protein)) * 10) / 10
+  maxProtein: Math.ceil(Math.max(...dataset.foods.map((food) => food.protein)) * 10) / 10,
+  maxFat: Math.ceil(Math.max(...dataset.foods.map((food) => food.fat)) * 10) / 10
 };
 
 const state = {
@@ -32,10 +33,12 @@ const state = {
   formatFilter: "all",
   renalOnly: false,
   maxPhos: dataStats.maxPhos,
-  minProtein: dataStats.minProtein
+  minProtein: dataStats.minProtein,
+  maxFat: dataStats.maxFat
 };
 
 const fmt = (value, digits = 2) => (Number.isFinite(value) ? Number(value).toFixed(digits).replace(/\.?0+$/, "") : "-");
+const fmtLabel = (value, digits = 1) => (Number.isFinite(value) ? `${fmt(value, digits)}%` : "미공개");
 
 const dryMatter = (food, key) => {
   if (!Number.isFinite(food[key]) || !Number.isFinite(food.moisture) || food.moisture >= 100) return null;
@@ -44,6 +47,7 @@ const dryMatter = (food, key) => {
 
 const fmtDm = (food, key, digits = 1) => {
   const dm = dryMatter(food, key);
+  if (!Number.isFinite(food[key])) return "미공개";
   return Number.isFinite(dm) ? `${fmt(dm, digits)}% DM` : "DM 계산 불가";
 };
 
@@ -52,7 +56,7 @@ const nutrientCell = (food, key, digits = 1, toneClass = "") => {
   return `
     <div class="nutrientCell">
       <span class="${badgeClass}">${fmtDm(food, key, digits)}</span>
-      <small>라벨 ${fmt(food[key], digits)}%</small>
+      <small>라벨 ${fmtLabel(food[key], digits)}</small>
     </div>
   `;
 };
@@ -163,7 +167,7 @@ const nutrientDetail = (food, key, label, digits = 1, toneClass = "") => {
     <div class="detailMetric ${toneClass}">
       <span>${label}</span>
       <strong>${fmtDm(food, key, digits)}</strong>
-      <small>라벨 ${fmt(food[key], digits)}%</small>
+      <small>라벨 ${fmtLabel(food[key], digits)}</small>
     </div>
   `;
 };
@@ -210,6 +214,7 @@ const detailPanelMarkup = (food) => {
       ${nutrientDetail(food, "phosphorus", "인", 2, phosTone(food.phosphorus))}
       ${nutrientDetail(food, "protein", "조단백", 1)}
       ${nutrientDetail(food, "fat", "조지방", 1)}
+      ${nutrientDetail(food, "sodium", "나트륨", 3)}
       <div class="detailMetric">
         <span>수분</span>
         <strong>${fmt(food.moisture, 1)}%</strong>
@@ -240,7 +245,7 @@ const rows = () =>
     .filter((food) => state.formatFilter === "all" || food.format === state.formatFilter)
     .filter((food) => !state.renalOnly || isRenalCandidate(food))
     .filter((food) => `${food.brand} ${food.line} ${food.product} ${food.origin}`.toLowerCase().includes(state.query.toLowerCase()))
-    .filter((food) => food.phosphorus <= state.maxPhos && food.protein >= state.minProtein)
+    .filter((food) => food.phosphorus <= state.maxPhos && food.protein >= state.minProtein && food.fat <= state.maxFat)
     .sort((a, b) => {
       const delta = a[state.metric] - b[state.metric];
       return state.direction === "asc" ? delta : -delta;
@@ -366,6 +371,10 @@ app.innerHTML = `
             <span id="minProteinLabel">최소 조단백: ${fmt(state.minProtein, 1)}%</span>
             <input id="minProtein" type="range" min="${dataStats.minProtein}" max="${dataStats.maxProtein}" step="0.1" value="${state.minProtein}" />
           </label>
+          <label class="field">
+            <span id="maxFatLabel">최대 조지방: ${fmt(state.maxFat, 1)}%</span>
+            <input id="maxFat" type="range" min="0" max="${dataStats.maxFat}" step="0.1" value="${state.maxFat}" />
+          </label>
         </div>
         <div class="tableFilters" aria-label="성분 정렬 필터">
           <label class="tableSearch">
@@ -410,6 +419,7 @@ app.innerHTML = `
                 <th>인</th>
                 <th>조단백</th>
                 <th>조지방</th>
+                <th>나트륨</th>
                 <th>수분</th>
                 <th>추천점수</th>
                 <th>출처</th>
@@ -448,6 +458,7 @@ const renderRows = () => {
   document.querySelector("#typeFilter").value = state.typeFilter;
   document.querySelector("#originFilter").value = state.originFilter;
   document.querySelector("#formatFilter").value = state.formatFilter;
+  document.querySelector("#maxFat").value = state.maxFat;
   document.querySelector("#foodRows").innerHTML = currentRows
     .map(
       (food) => `
@@ -470,6 +481,7 @@ const renderRows = () => {
           <td>${nutrientCell(food, "phosphorus", 2, phosTone(food.phosphorus))}</td>
           <td>${nutrientCell(food, "protein", 1)}</td>
           <td>${nutrientCell(food, "fat", 1)}</td>
+          <td>${nutrientCell(food, "sodium", 3)}</td>
           <td>${fmt(food.moisture, 1)}%</td>
           <td>${food.score}</td>
           <td><a href="${food.sourceUrl}" target="_blank" rel="noreferrer" aria-label="${foodId(food)} 출처 열기">${icon.external}</a></td>
@@ -573,6 +585,12 @@ document.querySelector("#maxPhos").addEventListener("input", (event) => {
 document.querySelector("#minProtein").addEventListener("input", (event) => {
   state.minProtein = Number(event.target.value);
   document.querySelector("#minProteinLabel").textContent = `최소 조단백: ${fmt(state.minProtein, 1)}%`;
+  renderRows();
+});
+
+document.querySelector("#maxFat").addEventListener("input", (event) => {
+  state.maxFat = Number(event.target.value);
+  document.querySelector("#maxFatLabel").textContent = `최대 조지방: ${fmt(state.maxFat, 1)}%`;
   renderRows();
 });
 
