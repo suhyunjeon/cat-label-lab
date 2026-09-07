@@ -317,7 +317,7 @@ app.innerHTML = `
     <header class="appHeader">
       <div class="headerInner">
         <div>
-          <div class="brand">${icon.cat} 캣라벨랩</div>
+          <div class="brand">${icon.cat} 애봉순애</div>
           <h1>한국 판매 습식 성분 랭커</h1>
           <p>국내 판매 고양이 습식 제품의 보장성분을 한눈에 비교합니다.</p>
         </div>
@@ -487,7 +487,7 @@ app.innerHTML = `
     <button class="topButton" id="topButton" type="button" aria-label="맨 위로 이동">↑ TOP</button>
 
     <footer class="siteFooter">
-      <p>애봉·봉순·순애 고양이 집사가 만들었어요. <a href="https://blog.naver.com/colbi_orda/" target="_blank" rel="noreferrer">블로그 보기</a></p>
+      <p>애봉·봉순·순애 고양이 집사가 만들었어요. <a href="https://blog.naver.com/colbi_orda/" target="_blank" rel="noreferrer">블로그 보기</a> · © 2026 애봉순애. All rights reserved.</p>
       <p>본 서비스는 고양이 습식 제품의 보장성분 비교를 돕기 위한 무료 참고 도구이며, 수의사의 진료·처방을 대체하지 않습니다.</p>
     </footer>
   </main>
