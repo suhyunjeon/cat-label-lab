@@ -126,6 +126,24 @@ const textKey = (value) =>
     .toLowerCase()
     .replace(/\s+/g, "");
 
+const searchTerms = (value) =>
+  String(value || "")
+    .toLowerCase()
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+
+const foodSearchText = (food) =>
+  `${food.brand || ""} ${food.line || ""} ${food.product || ""} ${food.origin || ""} ${food.maker || ""}`.toLowerCase();
+
+const matchesFoodSearch = (food, query) => {
+  const terms = searchTerms(query);
+  if (!terms.length) return true;
+  const searchable = foodSearchText(food);
+  const compact = textKey(searchable);
+  return terms.every((term) => searchable.includes(term) || compact.includes(textKey(term)));
+};
+
 const classifyFood = (food) => {
   const proteinDm = dryMatter(food, "protein");
   const phosphorusDm = dryMatter(food, "phosphorus");
@@ -297,7 +315,7 @@ const rows = () =>
     .filter((food) => state.originFilter === "all" || (food.origin || "미공개") === state.originFilter)
     .filter((food) => state.formatFilter === "all" || food.format === state.formatFilter)
     .filter((food) => !state.renalOnly || isRenalCandidate(food))
-    .filter((food) => `${food.brand} ${food.line} ${food.product} ${food.origin}`.toLowerCase().includes(state.query.toLowerCase()))
+    .filter((food) => matchesFoodSearch(food, state.query))
     .filter((food) => state.query.trim() || (food.phosphorus <= state.maxPhos && food.protein >= state.minProtein && food.fat <= state.maxFat))
     .sort((a, b) => {
       const delta = a[state.metric] - b[state.metric];
